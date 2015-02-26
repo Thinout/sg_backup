@@ -1,0 +1,2712 @@
+<savegame version="1.0.0.29 DISC" type="0">
+  <name>Lense2</name>
+  <episode>episode_02</episode>
+  <chapter>e02c02</chapter>
+  <timeplayed>412851080348</timeplayed>
+  <creationdatetime>635604909833384870</creationdatetime>
+  <gamestate name="start">
+    <preferences />
+    <currentcharacter characterid="characters_wilbur" position="1.681203 -0.3376451 -1.692224" rotation="0 0.9959671 0 -0.0897188" />
+    <items>
+      <item idref="items_e02c02_city_square_barrel" visualisation="marked" interactionmode="none" mouseoverref="texts_e02c02_city_square_barrel_mo_ex_1__2" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="used_by" item="items_e02c02_city_corner_chalk" sequenceref="sequences_e02c02_city_square_barrel_used_mit_chalk" />
+        <interactmouseover itemref="items_e02c02_city_corner_chalk" textref="texts_e02c02_city_square_barrel_mo_used_mit_chalk" />
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_square_barrel_ex_3" />
+      </item>
+      <item idref="items_e02c02_city_square_deliverynote" visualisation="default" interactionmode="use" mouseoverref="texts_e02c02_city_square_deliverynote_mo_inventar_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_square_deliverynote_ex_1" />
+      </item>
+      <item idref="items_e02c02_city_square_pad" visualisation="default" interactionmode="talk" mouseoverref="texts_e02c02_city_square_pad_mo_use_1__2" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_square_pad_ex_2" />
+        <interaction mode="talk" sequenceref="none" />
+      </item>
+      <item idref="items_e02c02_city_square_transportcrate" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_square_transportcrate_mo_betrachte_2" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_square_transportcrate">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_square_transportcrate_ex_2" />
+        <interaction mode="use" sequenceref="sequences_e02c02_city_square_transportcrate_use_1" />
+      </item>
+      <item idref="items_e02c02_city_square_keygate" visualisation="default" interactionmode="use" mouseoverref="texts_e02c02_city_square_keygate_mo_ex_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_square_keygate_ex_1" />
+      </item>
+      <item idref="items_e02c02_city_square_lottery" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_square_lottery_mo_ex_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_square_lottery">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_square_lottery_ex_2" />
+      </item>
+      <item idref="items_e02c02_city_square_goods" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_square_goods_mo_ex_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_square_goods">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_square_goods_ex_2" />
+      </item>
+      <item idref="items_e02c02_city_square_crane" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_square_crane_mo_ex_1-3" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_square_crane">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_square_crane_ex_3" />
+      </item>
+      <item idref="items_e02c02_city_square_schooltower" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_square_schooltower_mo_ex_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_square_schooltower">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_square_schooltower_ex_2" />
+      </item>
+      <item idref="items_e02c02_city_square_magicantower" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_square_magicantower_mo_ex_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_square_magicantower">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_square_magicantower_ex_2" />
+      </item>
+      <item idref="items_e02c02_city_square_exitschoolentrance" visualisation="default" interactionmode="leave" mouseoverref="texts_e02c02_city_square_exitschoolentrance_mo_leave_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_square_exitschoolentrance">
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e02c02_city_square_exitcityguard" visualisation="default" interactionmode="leave" mouseoverref="texts_e02c02_city_square_exitcityguard_mo_leave_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_square_exitcityguard">
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="characters_pad" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" dialoggroup="default" />
+      <item idref="characters_wilbur" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="scenes_e02c02_city_tavern" currentlocation="avatar" dialoggroup="default" />
+      <item idref="characters_guard" visualisation="gate" interactionmode="talk" mouseoverref="texts_e02c02_city_corner_character_guard_mo_talk_mit_1-3" nameref="none" currentscene="none" currentlocation="positions_characters_guard" dialoggroup="default">
+        <interaction mode="used_by" item="items_e02c02_city_square_magicwand" sequenceref="sequences_guard_use_mit_magicwand" />
+        <interactmouseover itemref="items_e02c02_city_square_magicwand" textref="texts_guard_mo_use_mit_magicwand" />
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_corner_character_guard_ex_1" />
+        <interaction mode="notopic" sequenceref="sequences_e02c02_city_corner_character_guard_talk_mit_3" />
+        <interaction mode="talk" sequenceref="sequences_e02c02_city_corner_character_guard_talk_mit_2" />
+      </item>
+      <item idref="characters_jorge" visualisation="goods" interactionmode="talk" mouseoverref="texts_e02c02_city_square_character_jorge_mo_talk_mit_1-3" nameref="none" currentscene="none" currentlocation="positions_characters_jorge" dialoggroup="default">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_square_character_jorge_ex_2" />
+        <interaction mode="notopic" sequenceref="sequences_e02c02_city_square_character_jorge_talk_mit_3" />
+        <interaction mode="used_by" item="items_e02_c02_city_street_bills" sequenceref="sequences_jorge_use_mit_bills" />
+        <interactmouseover itemref="items_e02_c02_city_street_bills" textref="texts_jorge_mo_use_mit_bills" />
+        <interaction mode="talk" sequenceref="sequences_e02c02_city_square_character_jorge_talk_mit_1" />
+        <interaction mode="used_by" item="items_e02c02_city_square_deliverynote" sequenceref="sequences_jorge_top_e02c02_character_jorge_eisenwerke_tseq" />
+        <interactmouseover itemref="items_e02c02_city_square_deliverynote" textref="texts_e02c02_city_square_character_jorge_mo_usedby_1" />
+      </item>
+      <item idref="characters_reporter" visualisation="key" interactionmode="talk" mouseoverref="texts_e02c02_city_tavern_character_reporter_mo_talk_mit_2-3" nameref="none" currentscene="none" currentlocation="none" dialoggroup="default">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_tavern_character_reporter_ex_1" />
+        <interaction mode="talk" sequenceref="sequences_e02c02_city_tavern_character_reporter_talk_mit_2" />
+        <interaction mode="notopic" sequenceref="sequences_e02c02_city_tavern_character_reporter_talk_mit_3" />
+      </item>
+      <item idref="characters_politician" visualisation="lottery" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" dialoggroup="default" />
+      <item idref="items_starter" visualisation="default" interactionmode="leave" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_starter">
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e02c02_city_corner_exitcitysquare" visualisation="default" interactionmode="leave" mouseoverref="texts_e02c02_city_corner_exitcitysquare_mo_leave_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_corner_exitcitysquare">
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e02c02_city_corner_exitcitygate" visualisation="default" interactionmode="leave" mouseoverref="texts_e02c02_city_corner_exitcitygate_mo_leave_1-4" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_corner_exitcitygate">
+        <interaction mode="used_by" item="items_e02c02_city_square_magicwand" sequenceref="sequences_e02c02_city_corner_exitcitygate_use_mit_magicwand" />
+        <interactmouseover itemref="items_e02c02_city_square_magicwand" textref="texts_e02c02_city_corner_exitcitygate_mo_use_mit_magicwand" />
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_corner_exitcitygate_ex_2" />
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e02c02_city_corner_statue" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_corner_statue_mo_ex_1a__1b__2" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_corner_statue">
+        <interaction mode="used_by" item="items_e02c02_city_corner_chalk" sequenceref="sequences_e02c02_city_corner_statue_use_mit_chalk" />
+        <interactmouseover itemref="items_e02c02_city_corner_chalk" textref="texts_e02c02_city_corner_statue_mo_use_mit_chalk" />
+        <interactmouseover itemref="items_e02c02_city_corner_chisel" textref="texts_e02c02_city_corner_statue_mo_used_mit_chisel_1-3" />
+        <interactmouseover itemref="items_e02c02_city_gate_hammer" textref="texts_e02c02_city_corner_statue_mo_used_mit_chisel_1-3" />
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_corner_statue_ex_2" />
+        <interaction mode="used_by" item="items_e02c02_city_corner_chisel" sequenceref="sequences_e02c02_city_corner_statue_used_mit_chisel_3" />
+        <interaction mode="used_by" item="items_e02c02_city_gate_hammer" sequenceref="sequences_e02c02_city_corner_statue_used_mit_chisel_3" />
+      </item>
+      <item idref="items_e02c02_city_corner_golemarms" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_corner_golemarms_mo_inventar_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_corner_golemarms_ex_1" />
+      </item>
+      <item idref="items_e02c02_city_corner_chalk" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_corner_chalk_mo_inventar_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_corner_chalk_ex_1" />
+      </item>
+      <item idref="items_e02c02_city_corner_billboard" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_corner_billboard_mo_ex_1-4" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_corner_billboard">
+        <interaction mode="used_by" item="items_e02c02_school_classroom_pictureclass" sequenceref="sequences_e02c02_city_corner_billboard_used_mit_pictureclass" />
+        <interactmouseover itemref="items_e02c02_school_classroom_pictureclass" textref="texts_e02c02_city_corner_billboard_mo_used_mit_pictureclass" />
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_corner_billboard_ex_4" />
+        <interaction mode="used_by" item="items_e02_c02_city_street_bills" sequenceref="sequences_e02c02_city_corner_billboard_used_mit_bill_2" />
+        <interactmouseover itemref="items_e02_c02_city_street_bills" textref="texts_e02c02_city_corner_billboard_mo_used_mit_placards_2" />
+        <interaction mode="used_by" item="items_e02_c02_school_entrance_mop" sequenceref="sequences_e02c02_city_corner_billboard_used_mit_mop_3" />
+        <interactmouseover itemref="items_e02_c02_school_entrance_mop" textref="texts_e02c02_city_corner_billboard_mo_used_mit_mop_1-3" />
+      </item>
+      <item idref="items_e02c02_city_corner_chisel" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_corner_chisel_mo_inventar_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_corner_chisel_ex_1" />
+      </item>
+      <item idref="items_e02c02_city_corner_bakery" visualisation="default" interactionmode="examine" mouseoverref="texts_e02c02_city_corner_bakery_mo_ex_2__3a__3b" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_corner_bakery">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_corner_bakery_ex_3b" />
+      </item>
+      <item idref="items_e02c02_city_corner_grating" visualisation="default" interactionmode="examine" mouseoverref="texts_e02c02_city_corner_grating_mo_ex_1__2a__2b" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_corner_grating">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_corner_grating_ex_2a" />
+        <interaction mode="used_by" item="items_e02_c02_city_street_character_ratboy" sequenceref="sequences_e02c02_city_corner_grating_used_mit_character_ratboy_3" />
+        <interactmouseover itemref="items_e02_c02_city_street_character_ratboy" textref="texts_e02c02_city_corner_grating_mo_used_mit_character_ratboy_2-5" />
+      </item>
+      <item idref="items_e02c02_city_corner_chocolatered" visualisation="default" interactionmode="use" mouseoverref="texts_e02c02_city_corner_chocolatered_mo_ex_3" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_corner_chocolatered_ex_4" />
+        <interaction mode="used_by" item="items_e02c02_city_corner_chocolateblue" sequenceref="sequences_e02c02_city_corner_chocolatered_used_mit_chocolateblue" />
+        <interactmouseover itemref="items_e02c02_city_corner_chocolateblue" textref="texts_e02c02_city_corner_chocolatered_mo_used_mit_chocolateblue" />
+      </item>
+      <item idref="items_e02c02_city_corner_chocolateblue" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_corner_chocolatered_mo_ex_2" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_corner_chocolateblue_ex_3" />
+        <interaction mode="used_by" item="items_e02c02_city_corner_chocolatered" sequenceref="sequences_e02c02_city_corner_chocolatered_used_mit_chocolateblue" />
+        <interactmouseover itemref="items_e02c02_city_corner_chocolatered" textref="texts_e02c02_city_corner_chocolatered_mo_used_mit_chocolateblue" />
+      </item>
+      <item idref="characters_prisoner" visualisation="prisoner" interactionmode="talk" mouseoverref="texts_e02c02_city_corner_character_prisoner_mo_talk_mit_1__2" nameref="none" currentscene="none" currentlocation="positions_characters_prisoner" dialoggroup="default">
+        <interaction mode="examine" sequenceref="none" />
+        <interaction mode="talk" sequenceref="sequences_e02c02_city_corner_character_prisoner_talk_mit_1" />
+        <interaction mode="notopic" sequenceref="sequences_e02c02_city_corner_character_prisoner_talk_mit_2" />
+        <interaction mode="used_by" item="items_e02c02_city_corner_chisel" sequenceref="sequences_e02c02_city_corner_character_prisoner_used_mit_hammer_4" />
+        <interactmouseover itemref="items_e02c02_city_corner_chisel" textref="texts_e02c02_city_corner_character_prisoner_mo_used_mit_chisel_1__2" />
+        <interaction mode="used_by" item="items_e02c02_city_gate_hammer" sequenceref="sequences_e02c02_city_corner_character_prisoner_used_mit_hammer_2" />
+        <interactmouseover itemref="items_e02c02_city_gate_hammer" textref="texts_e02c02_city_corner_character_prisoner_mo_used_mit_hammer_1__2" />
+      </item>
+      <item idref="characters_ratboy" visualisation="rail" interactionmode="take" mouseoverref="texts_e02_c02_city_street_character_ratboy_mo_take_1" nameref="none" currentscene="none" currentlocation="none" dialoggroup="default">
+        <interaction mode="examine" sequenceref="sequences_e02_c02_city_street_character_ratboy_ex_1" />
+        <interaction mode="talk" sequenceref="none" />
+        <interaction mode="notopic" sequenceref="sequences_e02_c02_city_street_character_ratboy_talk_mit_3" />
+        <interaction mode="take" sequenceref="sequences_e02_c02_city_street_character_ratboy_take_1" />
+      </item>
+      <item idref="characters_door" visualisation="door" interactionmode="talk" mouseoverref="texts_e02_c02_school_entrance_character_door_mo_talk_mit_1" nameref="none" currentscene="none" currentlocation="positions_characters_door" dialoggroup="default">
+        <interaction mode="examine" sequenceref="sequences_e02_c02_school_entrance_character_door_ex_6" />
+        <interaction mode="talk" sequenceref="sequences_e02_c02_school_entrance_character_door_talk_mit_1" />
+      </item>
+      <item idref="items_e02_c02_school_entrance_mop" visualisation="default" interactionmode="use" mouseoverref="texts_e02_c02_school_entrance_mop_mo_inventar_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02_c02_school_entrance_mop_ex_2" />
+        <interaction mode="used_by" item="items_e02c02_city_square_magicwand" sequenceref="sequences_e02c02_city_square_magicwand_use_mit_mop" />
+        <interactmouseover itemref="items_e02c02_city_square_magicwand" textref="texts_e02c02_city_square_magicwand_mo_use_mit_mop" />
+        <interaction mode="take" sequenceref="sequences_e02_c02_school_entrance_mop_take_1" />
+        <interaction mode="use" sequenceref="none" />
+        <interaction mode="used_by" item="items_e02_c02_city_street_bills" sequenceref="sequences_e02_c02_school_entrance_mop_use_mit_bills" />
+        <interactmouseover itemref="items_e02_c02_city_street_bills" textref="texts_e02_c02_school_entrance_mop_mo_use_mit_bills" />
+      </item>
+      <item idref="items_e02_c02_school_entrance_exitclassroom" visualisation="default" interactionmode="leave" mouseoverref="texts_e02_c02_school_entrance_exitclassroom_mo_leave_1" nameref="none" currentscene="none" currentlocation="positions_items_e02_c02_school_entrance_exitclassroom">
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e02_c02_school_entrance_switch" visualisation="default" interactionmode="none" mouseoverref="texts_e02_c02_school_entrance_switch_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02_c02_school_entrance_switch">
+        <interaction mode="examine" sequenceref="sequences_e02_c02_school_entrance_switch_ex_1" />
+      </item>
+      <item idref="items_e02_c02_city_street_exitcitygate" visualisation="default" interactionmode="leave" mouseoverref="texts_e02_c02_city_street_exitcitygate_mo_leave_1" nameref="none" currentscene="none" currentlocation="positions_items_e02_c02_city_street_exitcitygate">
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e02_c02_city_street_exitcitytavern" visualisation="default" interactionmode="leave" mouseoverref="texts_e02_c02_city_street_exitcitytavern_mo_leave_1" nameref="none" currentscene="none" currentlocation="positions_items_e02_c02_city_street_exitcitytavern">
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e02_c02_city_street_tavern" visualisation="default" interactionmode="none" mouseoverref="texts_e02_c02_city_street_tavern_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02_c02_city_street_tavern">
+        <interaction mode="examine" sequenceref="sequences_e02_c02_city_street_tavern_ex_1" />
+      </item>
+      <item idref="items_e02_c02_city_street_fireplace" visualisation="default" interactionmode="none" mouseoverref="texts_e02_c02_city_street_fireplace_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02_c02_city_street_fireplace">
+        <interaction mode="examine" sequenceref="sequences_e02_c02_city_street_fireplace_ex_2" />
+        <interaction mode="used_by" item="items_e02c02_city_square_magicwand" sequenceref="sequences_e02_c02_city_street_fireplace_used_mit_folder" />
+        <interactmouseover itemref="items_e02c02_city_square_magicwand" textref="texts_e02_c02_city_street_fireplace_mo_used_mit_folder_1" />
+        <interaction mode="used_by" item="items_e02_c02_city_street_golemhead" sequenceref="sequences_e02_c02_city_street_fireplace_used_mit_golemhead" />
+        <interactmouseover itemref="items_e02_c02_city_street_golemhead" textref="texts_e02_c02_city_street_fireplace_mo_used_mit_golemhead" />
+        <interaction mode="used_by" item="items_e02_c02_city_street_bills" sequenceref="sequences_e02_c02_city_street_fireplace_used_mit_bills" />
+        <interactmouseover itemref="items_e02_c02_city_street_bills" textref="texts_e02_c02_city_street_fireplace_mo_used_mit_bills" />
+      </item>
+      <item idref="items_e02_c02_city_street_bucket" visualisation="default" interactionmode="none" mouseoverref="texts_e02_c02_city_street_bucket_mo_ex_1-3" nameref="none" currentscene="none" currentlocation="positions_items_e02_c02_city_street_bucket">
+        <interaction mode="examine" sequenceref="sequences_e02_c02_city_street_bucket_ex_3" />
+        <interaction mode="used_by" item="items_e02c02_city_tavern_glas" sequenceref="sequences_e02_c02_city_street_bucket_used_mit_glas_1" />
+        <interactmouseover itemref="items_e02c02_city_tavern_glas" textref="texts_e02_c02_city_street_bucket_mo_used_mit_glas_1" />
+      </item>
+      <item idref="items_e02_c02_city_street_barricade" visualisation="default" interactionmode="none" mouseoverref="texts_e02_c02_city_street_barricade_mo_ex_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e02_c02_city_street_barricade">
+        <interaction mode="examine" sequenceref="sequences_e02_c02_city_street_barricade_ex_2" />
+      </item>
+      <item idref="items_e02_c02_city_street_code" visualisation="default" interactionmode="use" mouseoverref="texts_e02_c02_city_street_code_mo_ex_1-3" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02_c02_city_street_code_ex_2" />
+      </item>
+      <item idref="items_e02_c02_city_street_clay" visualisation="default" interactionmode="none" mouseoverref="texts_e02_c02_city_street_clay_mo_inventar_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02_c02_city_street_clay_ex_1" />
+      </item>
+      <item idref="items_e02_c02_city_street_golemhead" visualisation="default" interactionmode="none" mouseoverref="texts_e02_c02_city_street_golemhead_mo_inventar_2" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02_c02_city_street_golemhead_ex_2" />
+        <interaction mode="used_by" item="items_e02c02_city_corner_golemarms" sequenceref="sequences_e02_c02_city_street_golemhead_used_mit_golemarms_oder_pisspott" />
+        <interactmouseover itemref="items_e02c02_city_corner_golemarms" textref="texts_e02_c02_city_street_golemhead_mo_used_mit_golemarms_oder_pisspott" />
+        <interaction mode="used_by" item="items_e02_c02_city_street_pisspott" sequenceref="sequences_e02_c02_city_street_golemhead_used_mit_golemarms_oder_pisspott" />
+        <interactmouseover itemref="items_e02_c02_city_street_pisspott" textref="texts_e02_c02_city_street_golemhead_mo_used_mit_golemarms_oder_pisspott" />
+      </item>
+      <item idref="items_e02_c02_city_street_bills" visualisation="default" interactionmode="use" mouseoverref="texts_e02_c02_city_street_bills_mo_inventar_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="used_by" item="items_e02_c02_school_entrance_mop" sequenceref="sequences_e02_c02_school_entrance_mop_use_mit_bills" />
+        <interactmouseover itemref="items_e02_c02_school_entrance_mop" textref="texts_e02_c02_school_entrance_mop_mo_use_mit_bills" />
+        <interaction mode="examine" sequenceref="sequences_e02_c02_city_street_bills_ex_1" />
+      </item>
+      <item idref="items_e02_c02_city_street_pisspott" visualisation="default" interactionmode="use" mouseoverref="texts_e02_c02_city_street_pisspott_mo_use_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02_c02_city_street_pisspott_ex_2" />
+        <interaction mode="talk" sequenceref="sequences_e02_c02_city_street_pisspott_talk_mit_3" />
+        <interaction mode="used_by" item="items_e02_c02_city_street_golemhead" sequenceref="sequences_e02_c02_city_street_golemhead_used_mit_golemarms_oder_pisspott" />
+        <interactmouseover itemref="items_e02_c02_city_street_golemhead" textref="texts_e02_c02_city_street_golemhead_mo_used_mit_golemarms_oder_pisspott" />
+        <interaction mode="used_by" item="items_e02c02_city_corner_golemarms" sequenceref="sequences_e02_c02_city_street_golemhead_used_mit_golemarms_oder_pisspott" />
+        <interactmouseover itemref="items_e02c02_city_corner_golemarms" textref="texts_e02_c02_city_street_golemhead_mo_used_mit_golemarms_oder_pisspott" />
+      </item>
+      <item idref="characters_protestermale" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_characters_protestermale" dialoggroup="default" />
+      <item idref="characters_protesterfemale" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_characters_protesterfemale" dialoggroup="default" />
+      <item idref="items_e02c02_school_classroom_exit_room" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_school_classroom_exit_room_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_school_classroom_exit_room">
+        <interaction mode="examine" sequenceref="sequences_e02c02_school_classroom_exit_room_ex_1" />
+      </item>
+      <item idref="items_e02c02_school_classroom_exit_entrance" visualisation="default" interactionmode="leave" mouseoverref="texts_e02c02_school_classroom_exit_entrance_mo_leave_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_school_classroom_exit_entrance">
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e02c02_school_classroom_lab" visualisation="default" interactionmode="examine" mouseoverref="texts_e02c02_school_classroom_lab_mo_ex_1-3" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_school_classroom_lab">
+        <interaction mode="examine" sequenceref="sequences_e02c02_school_classroom_lab_ex_3" />
+      </item>
+      <item idref="items_e02c02_school_classroom_plants" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_school_classroom_plants_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_school_classroom_plants">
+        <interaction mode="examine" sequenceref="sequences_e02c02_school_classroom_plants_ex_1" />
+      </item>
+      <item idref="items_e02c02_school_classroom_pictureclass" visualisation="default" interactionmode="use" mouseoverref="texts_e02c02_school_classroom_pictureclass_mo_ex_2" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c02_school_classroom_pictureclass_ex_2" />
+      </item>
+      <item idref="items_e02c02_school_classroom_stove" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_school_classroom_stove_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_school_classroom_stove">
+        <interaction mode="examine" sequenceref="sequences_e02c02_school_classroom_stove_ex_1" />
+      </item>
+      <item idref="items_e02c02_school_classroom_grime" visualisation="default" interactionmode="use" mouseoverref="texts_e02c02_school_classroom_grime_mo_inventar_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c02_school_classroom_grime_ex_1" />
+      </item>
+      <item idref="characters_king" visualisation="dialog" interactionmode="talk" mouseoverref="texts_e02c02_city_tavern_character_king_mo_talk_mit_1" nameref="none" currentscene="none" currentlocation="none" dialoggroup="default">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_tavern_character_king_ex_1" />
+        <interaction mode="talk" sequenceref="none" />
+      </item>
+      <item idref="characters_ogremage" visualisation="default" interactionmode="talk" mouseoverref="texts_e02c02_city_tavern_character_ogremage_mo_talk_mit_1__2" nameref="none" currentscene="none" currentlocation="positions_characters_ogremage" dialoggroup="default">
+        <interactmouseover itemref="items_e02c02_city_corner_chocolatered" textref="texts_e02c02_city_tavern_character_ogremage_mo_used_by_praline" />
+        <interactmouseover itemref="items_e02c02_city_corner_chocolateblue" textref="texts_e02c02_city_tavern_character_ogremage_mo_used_by_praline" />
+        <interaction mode="used_by" item="items_e02_c02_city_street_bills" sequenceref="sequences_ogremage_use_mit_bills" />
+        <interactmouseover itemref="items_e02_c02_city_street_bills" textref="texts_ogremage_mo_use_mit_bills" />
+        <interaction mode="talk" sequenceref="sequences_e02c02_city_tavern_character_ogremage_talk_mit_1" />
+        <interaction mode="notopic" sequenceref="sequences_e02c02_city_tavern_character_ogremage_talk_mit_2" />
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_tavern_character_ogremage_ex_1" />
+      </item>
+      <item idref="characters_ogrethug" visualisation="default" interactionmode="talk" mouseoverref="texts_e02c02_city_tavern_character_ogrethug_mo_talk_mit_1__2" nameref="none" currentscene="none" currentlocation="positions_characters_ogrethug" dialoggroup="default">
+        <interaction mode="used_by" item="items_e02_c02_city_street_bills" sequenceref="sequences_ogrethug_use_mit_bills" />
+        <interactmouseover itemref="items_e02_c02_city_street_bills" textref="texts_ogrethug_mo_use_mit_bills" />
+        <interaction mode="talk" sequenceref="sequences_e02c02_city_tavern_character_ogrethug_talk_mit_1" />
+        <interaction mode="notopic" sequenceref="sequences_e02c02_city_tavern_character_ogrethug_talk_mit_2" />
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_tavern_character_ogrethug_ex_1" />
+      </item>
+      <item idref="characters_schlmaster" visualisation="table" interactionmode="talk" mouseoverref="texts_e02c02_city_tavern_character_schlmaster_mo_talk_mit_1-3" nameref="none" currentscene="none" currentlocation="positions_characters_schlmaster" dialoggroup="default">
+        <interaction mode="examine" sequenceref="sequences_schlmaster_ex_2" />
+        <interaction mode="notopic" sequenceref="sequences_e02c02_city_tavern_character_schlmaster_talk_mit_3" />
+        <interaction mode="talk" sequenceref="sequences_e02c02_city_tavern_character_schlmaster_talk_mit_2" />
+        <interaction mode="used_by" item="items_e02c02_city_tavern_sack" sequenceref="sequences_schlmaster_used_mit_sack" />
+        <interactmouseover itemref="items_e02c02_city_tavern_sack" textref="texts_schlmaster_mo_used_mit_sack" />
+        <interactmouseover itemref="items_e02c02_school_classroom_pictureclass" textref="texts_e02c02_city_tavern_character_schlmaster_mo_used_mit_classroom_pictureclass" />
+      </item>
+      <item idref="items_e02c02_city_tavern_glas" visualisation="filled" interactionmode="use" mouseoverref="texts_e02c02_city_tavern_glas_mo_inventar_2" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_tavern_glas_ex_3" />
+        <interaction mode="take" sequenceref="sequences_e02c02_city_tavern_glas_take_1" />
+      </item>
+      <item idref="items_e02c02_city_tavern_exitcitystreet" visualisation="default" interactionmode="leave" mouseoverref="texts_e02c02_city_tavern_exitcitystreet_mo_leave_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_tavern_exitcitystreet">
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e02c02_city_tavern_stairs" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_tavern_stairs_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_tavern_stairs">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_tavern_stairs_ex_1" />
+      </item>
+      <item idref="items_e02c02_city_tavern_coat" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_tavern_coat_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_tavern_coat">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_tavern_coat_ex_2" />
+      </item>
+      <item idref="items_e02c02_city_tavern_pin" visualisation="default" interactionmode="use" mouseoverref="texts_e02c02_city_tavern_pin_mo_inventar_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_tavern_pin_ex_1" />
+      </item>
+      <item idref="items_e02c02_city_tavern_laws" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_tavern_laws_mo_betrachen_1-3" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_tavern_laws">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_tavern_laws_ex_3" />
+      </item>
+      <item idref="items_e02c02_city_tavern_sack" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_tavern_sack_mo_inventar_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_tavern_sack_ex_1" />
+      </item>
+      <item idref="items_e02c02_city_tavern_character_ogre" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_tavern_character_ogre_mo_talk_mit_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_tavern_character_ogre">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_tavern_character_ogre_ex_1" />
+        <interaction mode="talk" sequenceref="sequences_e02c02_city_tavern_character_ogre_talk_mit_1" />
+      </item>
+      <item idref="items_e02c02_city_tavern_golem" visualisation="complete" interactionmode="examine" mouseoverref="texts_e02c02_city_tavern_golem_mo_betrachte_1-6" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_tavern_golem">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_tavern_golem_ex_6" />
+        <interaction mode="used_by" item="items_e02c02_school_classroomlab_spell" sequenceref="sequences_e02c02_city_tavern_golem_used_mit_golemspell_2" />
+        <interactmouseover itemref="items_e02c02_school_classroomlab_spell" textref="texts_e02c02_city_tavern_golem_mo_used_mit_spell_1__2" />
+        <interactmouseover itemref="items_e02_c02_city_street_golemhead" textref="texts_e02c02_city_tavern_golem_mo_used_mit_golemhead_1__2" />
+        <interaction mode="used_by" item="items_e02c02_city_corner_golemarms" sequenceref="sequences_e02c02_city_tavern_golem_used_mit_golemarms" />
+        <interactmouseover itemref="items_e02c02_city_corner_golemarms" textref="texts_e02c02_city_tavern_golem_mo_used_mit_golemarms" />
+        <interaction mode="used_by" item="items_e02_c02_city_street_pisspott" sequenceref="sequences_e02c02_city_tavern_golem_used_mit_golemlegs" />
+        <interactmouseover itemref="items_e02_c02_city_street_pisspott" textref="texts_e02c02_city_tavern_golem_mo_used_mit_golemlegs" />
+        <interaction mode="used_by" item="items_e02_c02_city_street_golemhead" sequenceref="sequences_e02c02_city_tavern_golem_used_mit_golemhead_2" />
+      </item>
+      <item idref="items_e02c02_city_gate_exitcitycorner" visualisation="default" interactionmode="leave" mouseoverref="texts_e02c02_city_gate_exitcitycorner_mo_leave_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_gate_exitcitycorner">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_gate_exitcitycorner_ex_2" />
+        <interaction mode="use" sequenceref="sequences_e02c02_city_gate_exitcitycorner_use_3" />
+        <interaction mode="leave" sequenceref="sequences_e02c02_city_gate_exitcitycorner_leave_2" />
+        <interaction mode="used_by" item="items_e02c02_city_square_keygate" sequenceref="sequences_e02c02_city_gate_exitcitycorner_leave_1" />
+        <interactmouseover itemref="items_e02c02_city_square_keygate" textref="texts_e02c02_city_gate_exitcitycorner_mo_used_mit_key" />
+      </item>
+      <item idref="items_e02c02_city_gate_exitcitystreet" visualisation="default" interactionmode="leave" mouseoverref="texts_e02c02_city_gate_exitcitystreet_mo_leave_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_gate_exitcitystreet">
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e02c02_city_gate_stall" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_gate_stall_mo_ex_1-3" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_gate_stall">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_gate_stall_ex_3" />
+      </item>
+      <item idref="items_e02c02_city_gate_junk" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_gate_junk_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_gate_junk">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_gate_junk_ex_1" />
+      </item>
+      <item idref="items_e02c02_city_gate_stage" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_gate_stage_mo_betrachen_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_gate_stage">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_gate_stage_ex_1" />
+      </item>
+      <item idref="items_e02c02_city_gate_wall" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_gate_wall_mo_talk_1-3" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_gate_wall">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_gate_wall_ex_1" />
+        <interaction mode="talk" sequenceref="sequences_e02c02_city_gate_wall_talk_mit_3" />
+      </item>
+      <item idref="items_e02c02_city_gate_barrel" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_square_barrel_mo_ex_3" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_gate_barrel">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_gate_barrel_ex_2" />
+      </item>
+      <item idref="items_e02c02_city_gate_toolbox" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_gate_toolbox_mo_take_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_gate_toolbox">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_gate_toolbox_ex_1" />
+        <interaction mode="take" sequenceref="sequences_e02c02_city_gate_toolbox_take_1" />
+      </item>
+      <item idref="items_e02c02_city_gate_hammer" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_gate_hammer_mo_inventar_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_gate_hammer_ex_1" />
+      </item>
+      <item idref="items_e02c02_city_gate_outhouse" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_gate_outhouse_mo_ex_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_gate_outhouse">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_gate_outhouse_ex_2" />
+      </item>
+      <item idref="characters_boy" visualisation="gate_sword" interactionmode="talk" mouseoverref="texts_e02c02_city_gate_character_boy_mo_talk_mit_1" nameref="none" currentscene="none" currentlocation="none" dialoggroup="default">
+        <interaction mode="examine" sequenceref="none" />
+        <interaction mode="talk" sequenceref="sequences_e02c02_city_gate_character_boy_talk_mit_2" />
+        <interaction mode="notopic" sequenceref="sequences_e02c02_city_gate_character_boy_talk_mit_3" />
+      </item>
+      <item idref="items_e02_c02_school_entrance_exitsquare" visualisation="default" interactionmode="leave" mouseoverref="texts_e02_c02_school_entrance_exitsquare_mo_leave_1-3" nameref="none" currentscene="none" currentlocation="positions_items_e02_c02_school_entrance_exitsquare">
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="characters_protesters" visualisation="default" interactionmode="none" mouseoverref="texts_e02_c02_city_street_character__protesters_mo_use_1__2" nameref="none" currentscene="none" currentlocation="positions_characters_protesters" dialoggroup="default">
+        <interaction mode="examine" sequenceref="sequences_e02_c02_city_street_character__protesters_ex_2" />
+        <interaction mode="talk" sequenceref="sequences_e02_c02_city_street_character__protesters_talk_mit_1" />
+        <interaction mode="notopic" sequenceref="sequences_e02_c02_city_street_character__protesters_talk_mit_2" />
+        <interaction mode="used_by" item="items_e02c02_city_tavern_sack" sequenceref="sequences_protesters_used_mit_sack" />
+        <interactmouseover itemref="items_e02c02_city_tavern_sack" textref="texts_protesters_mo_used_mit_sack" />
+        <interaction mode="used_by" item="items_e02c02_city_tavern_pin" sequenceref="sequences_e02_c02_city_street_character__protesters_used_mit_pin_2" />
+        <interactmouseover itemref="items_e02c02_city_tavern_pin" textref="texts_e02_c02_city_street_character__protesters_mo_used_mit_pin_2" />
+        <interaction mode="use" sequenceref="sequences_e02_c02_city_street_character__protesters_use_2" />
+      </item>
+      <item idref="items_e02_c02_city_street_character_ratboy" visualisation="default" interactionmode="use" mouseoverref="texts_e02_c02_city_street_character_ratboy_mo_inventar" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02_c02_city_street_character_ratboy_ex_2" />
+      </item>
+      <item idref="items_e02c02_school_hall_exitentrance" visualisation="default" interactionmode="leave" mouseoverref="texts_e02c02_school_hall_exitentrance_mo_leave_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_school_hall_exitentrance">
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e02c02_school_hall_chimney" visualisation="default" interactionmode="examine" mouseoverref="texts_e02c02_school_hall_chimney_mo_used_mit_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_school_hall_chimney">
+        <interaction mode="examine" sequenceref="sequences_e02c02_school_hall_chimney_ex_1" />
+      </item>
+      <item idref="items_e02c02_school_hall_desk" visualisation="default" interactionmode="examine" mouseoverref="texts_e02c02_school_hall_desk_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_school_hall_desk">
+        <interaction mode="examine" sequenceref="sequences_e02c02_school_hall_desk_ex_1" />
+      </item>
+      <item idref="items_e02c02_school_hall_quill" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="used_by" item="items_e02c02_city_square_writingpad" sequenceref="sequences_e02c02_city_square_writingpad_used_mit_quill_1" />
+        <interactmouseover itemref="items_e02c02_city_square_writingpad" textref="texts_e02c02_city_square_writingpad_mo_used_mit_quill_1-2" />
+      </item>
+      <item idref="items_e02c02_school_hall_drawer" visualisation="default" interactionmode="examine" mouseoverref="texts_e02c02_school_hall_drawer_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_school_hall_drawer">
+        <interaction mode="examine" sequenceref="sequences_e02c02_school_hall_drawer_ex_1" />
+      </item>
+      <item idref="items_e02c02_school_hall_dragonsweat" visualisation="default" interactionmode="examine" mouseoverref="texts_e02c02_school_classroomlab_crocodiletears_mo_ex_1__2" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c02_school_hall_dragonsweat_ex_1" />
+      </item>
+      <item idref="items_e02c02_school_hall_clock" visualisation="default" interactionmode="examine" mouseoverref="texts_e02c02_school_hall_clock_mo_ex_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_school_hall_clock">
+        <interaction mode="examine" sequenceref="sequences_e02c02_school_hall_clock_ex_1" />
+      </item>
+      <item idref="items_e02c02_school_hall_showcase" visualisation="default" interactionmode="examine" mouseoverref="texts_e02c02_school_hall_showcase_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_school_hall_showcase">
+        <interaction mode="examine" sequenceref="sequences_e02c02_school_hall_showcase_ex_1" />
+      </item>
+      <item idref="items_e02c02_school_hall_rathole" visualisation="default" interactionmode="examine" mouseoverref="texts_e02c02_school_hall_rathole_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_school_hall_rathole">
+        <interaction mode="examine" sequenceref="sequences_e02c02_school_hall_rathole_ex_1" />
+      </item>
+      <item idref="items_e02c02_school_classroomlab_exit" visualisation="default" interactionmode="leave" mouseoverref="texts_e02c02_school_classroomlab_exit_mo_leave_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_school_classroomlab_exit">
+        <interaction mode="leave" sequenceref="sequences_e02c02_school_classroomlab_exit_leave_1" />
+      </item>
+      <item idref="items_e02c02_school_classroomlab_crocodiletears" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_school_classroomlab_crocodiletears_mo_use" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_school_classroomlab_crocodiletears">
+        <interaction mode="examine" sequenceref="sequences_e02c02_school_classroomlab_crocodiletears_ex_3" />
+        <interaction mode="use" sequenceref="sequences_e02c02_school_classroomlab_crocodiletears_use_1" />
+        <interaction mode="used_by" item="items_e02_c02_school_entrance_mop" sequenceref="sequences_e02c02_school_classroomlab_crocodiletears_use_mit_mop" />
+        <interactmouseover itemref="items_e02_c02_school_entrance_mop" textref="texts_e02c02_school_classroomlab_crocodiletears_mo_use_mit_mop" />
+        <interaction mode="used_by" item="items_e02c02_city_tavern_glas" sequenceref="sequences_e02c02_school_classroomlab_crocodiletears_used_mit_glas" />
+        <interactmouseover itemref="items_e02c02_city_tavern_glas" textref="texts_e02c02_school_classroomlab_crocodiletears_mo_used_mit_glas" />
+      </item>
+      <item idref="items_e02c02_school_classroomlab_pot" visualisation="default" interactionmode="examine" mouseoverref="texts_e02c02_school_classroomlab_pot_mo_ex_1-4" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_school_classroomlab_pot">
+        <interaction mode="used_by" item="items_e02c02_city_tavern_glas" sequenceref="sequences_e02c02_school_classroomlab_pot_used_mit_glas" />
+        <interactmouseover itemref="items_e02c02_city_tavern_glas" textref="texts_e02c02_school_classroomlab_pot_mo_benutz_mit_glas" />
+        <interaction mode="used_by" item="items_e02c02_school_classroomlab_crocodiletears" sequenceref="sequences_e02c02_school_classroomlab_pot_used_mit_crocodile_tears" />
+        <interactmouseover itemref="items_e02c02_school_classroomlab_crocodiletears" textref="texts_e02c02_school_classroomlab_pot_mo_benutz_mit_crocodile_tears" />
+        <interaction mode="used_by" item="items_e02c02_school_hall_dragonsweat" sequenceref="sequences_e02c02_school_classroomlab_pot_used_mit_dragonsweat_2" />
+        <interactmouseover itemref="items_e02c02_school_hall_dragonsweat" textref="texts_e02c02_school_classroomlab_pot_mo_benutz_mit_dragonsweat_1__2" />
+        <interaction mode="used_by" item="items_e02c02_school_classroom_grime" sequenceref="sequences_e02c02_school_classroomlab_pot_used_mit_russ_2" />
+        <interactmouseover itemref="items_e02c02_school_classroom_grime" textref="texts_e02c02_school_classroomlab_pot_mo_benutz_mit_russ_1__2" />
+        <interaction mode="examine" sequenceref="sequences_e02c02_school_classroomlab_pot_ex_4" />
+      </item>
+      <item idref="items_e02c02_school_classroomlab_scale" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_school_classroomlab_scale_mo_use" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_school_classroomlab_scale">
+        <interaction mode="used_by" item="items_e02c02_school_classroomlab_weight" sequenceref="sequences_e02c02_school_classroomlab_scale_used_mit_weight" />
+        <interactmouseover itemref="items_e02c02_school_classroomlab_weight" textref="texts_e02c02_school_classroomlab_scale_mo_used_mit_weight" />
+        <interaction mode="used_by" item="items_e02c02_city_corner_chocolatered" sequenceref="sequences_e02c02_school_classroomlab_scale_used_mit_chocolatered_2" />
+        <interactmouseover itemref="items_e02c02_city_corner_chocolatered" textref="texts_e02c02_school_classroomlab_scale_mo_used_mit_cocolatered_1__2" />
+        <interaction mode="used_by" item="items_e02c02_city_corner_chocolateblue" sequenceref="sequences_e02c02_school_classroomlab_scale_used_mit_chocolateblue_2" />
+        <interactmouseover itemref="items_e02c02_city_corner_chocolateblue" textref="texts_e02c02_school_classroomlab_scale_mo_used_mit_cocolatered_1__2" />
+        <interaction mode="used_by" item="items_e02c02_school_classroom_grime" sequenceref="sequences_e02c02_school_classroomlab_scale_used_mit_grime_4" />
+        <interactmouseover itemref="items_e02c02_school_classroom_grime" textref="texts_e02c02_school_classroomlab_scale_mo_used_mit_grime_1-4" />
+        <interaction mode="used_by" item="items_e02c02_school_hall_dragonsweat" sequenceref="sequences_e02c02_school_classroomlab_scale_used_mit_dragonsweat" />
+        <interactmouseover itemref="items_e02c02_school_hall_dragonsweat" textref="texts_e02c02_school_classroomlab_scale_mo_used_mit_dragonsweat" />
+        <interaction mode="examine" sequenceref="sequences_e02c02_school_classroomlab_scale_ex_3" />
+      </item>
+      <item idref="items_e02c02_school_classroomlab_weight" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_school_classroomlab_weight_mo_use" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_school_classroomlab_weight">
+        <interaction mode="examine" sequenceref="sequences_e02c02_school_classroomlab_weight_ex_1" />
+        <interaction mode="use" sequenceref="sequences_e02c02_school_classroomlab_weight_use_1" />
+      </item>
+      <item idref="items_e02c02_school_classroomlab_magicink" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="used_by" item="items_e02c02_city_square_writingpad" sequenceref="sequences_e02c02_city_square_writingpad_used_mit_magicink_1" />
+        <interactmouseover itemref="items_e02c02_city_square_writingpad" textref="texts_e02c02_city_square_writingpad_mo_used_mit_magicink_1-2" />
+      </item>
+      <item idref="items_e02c02_school_classroomlab_spell" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="items_e02_c02_city_street_abyss" visualisation="default" interactionmode="examine" mouseoverref="texts_e02_c02_city_street_abyss_mo_ex_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e02_c02_city_street_abyss">
+        <interaction mode="examine" sequenceref="sequences_e02_c02_city_street_abyss_ex_1" />
+        <interaction mode="used_by" item="items_e02c02_city_tavern_sack" sequenceref="sequences_e02_c02_city_street_abyss_used_mit_sack" />
+        <interactmouseover itemref="items_e02c02_city_tavern_sack" textref="texts_e02_c02_city_street_abyss_mo_used_mit_sack" />
+      </item>
+      <item idref="items_e02_c02_city_street_canal" visualisation="default" interactionmode="none" mouseoverref="texts_e02_c02_city_street_canal_mo_ex_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e02_c02_city_street_canal">
+        <interaction mode="examine" sequenceref="sequences_e02_c02_city_street_canal_ex_2" />
+      </item>
+      <item idref="items_e02_c02_city_street_stairs" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_tavern_stairs_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02_c02_city_street_stairs">
+        <interaction mode="examine" sequenceref="sequences_e02_c02_city_street_stairs_ex_1" />
+      </item>
+      <item idref="items_e02_c02_city_street_wagon" visualisation="default" interactionmode="none" mouseoverref="texts_e02_c02_city_street_wagon_mo_ex_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e02_c02_city_street_wagon">
+        <interaction mode="examine" sequenceref="sequences_e02_c02_city_street_wagon_ex_2" />
+      </item>
+      <item idref="items_e02c02_city_corner_shield" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_corner_shield_mo_ex_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_corner_shield">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_corner_shield_ex_2" />
+      </item>
+      <item idref="items_e02_c02_school_entrance_exitlibrary" visualisation="default" interactionmode="none" mouseoverref="texts_e02_c02_school_entrance_exitlibrary_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02_c02_school_entrance_exitlibrary">
+        <interaction mode="examine" sequenceref="sequences_e02_c02_school_entrance_exitlibrary_ex_1" />
+      </item>
+      <item idref="items_e02c02_city_square_weathercock" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_square_weathercock_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_square_weathercock">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_square_weathercock_ex_1" />
+      </item>
+      <item idref="items_e02c02_city_gate_lamp" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_gate_lamp_mo_ex_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_gate_lamp">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_gate_lamp_ex_2" />
+      </item>
+      <item idref="items_e02c02_city_square_writingpad" visualisation="default" interactionmode="use" mouseoverref="texts_e02c02_city_square_writingpad_mo_inventar_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="used_by" item="items_e02c02_school_classroomlab_magicink" sequenceref="sequences_e02c02_city_square_writingpad_used_mit_magicink_1" />
+        <interactmouseover itemref="items_e02c02_school_classroomlab_magicink" textref="texts_e02c02_city_square_writingpad_mo_used_mit_magicink_1-2" />
+        <interaction mode="used_by" item="items_e02c02_school_hall_quill" sequenceref="sequences_e02c02_city_square_writingpad_used_mit_quill_1" />
+        <interactmouseover itemref="items_e02c02_school_hall_quill" textref="texts_e02c02_city_square_writingpad_mo_used_mit_quill_1-2" />
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_square_writingpad_ex_1" />
+      </item>
+      <item idref="items_e02c02_city_square_magicwand" visualisation="default" interactionmode="use" mouseoverref="texts_e02c02_city_square_magicwand_mo_inventar_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="used_by" item="items_e02_c02_school_entrance_mop" sequenceref="sequences_e02c02_city_square_magicwand_use_mit_mop" />
+        <interactmouseover itemref="items_e02_c02_school_entrance_mop" textref="texts_e02c02_city_square_magicwand_mo_use_mit_mop" />
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_square_magicwand_ex_1" />
+      </item>
+      <item idref="items_e02c02_school_classroom_board" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_school_classroom_board_mo_ex_1-2" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_school_classroom_board">
+        <interaction mode="examine" sequenceref="sequences_e02c02_school_classroom_board_ex_2" />
+      </item>
+      <item idref="items_e02c02_school_classroom_desk" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_school_hall_desk_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_school_classroom_desk">
+        <interaction mode="examine" sequenceref="sequences_e02c02_school_classroom_desk_ex_1" />
+      </item>
+      <item idref="items_e02c02_school_classroom_cage" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_school_classroom_cage_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_school_classroom_cage">
+        <interaction mode="examine" sequenceref="sequences_e02c02_school_classroom_cage_ex_1" />
+      </item>
+      <item idref="items_e02_c02_school_entrance_window" visualisation="default" interactionmode="none" mouseoverref="texts_e02_c02_school_entrance_window_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02_c02_school_entrance_window">
+        <interaction mode="examine" sequenceref="sequences_e02_c02_school_entrance_window_ex_1" />
+      </item>
+      <item idref="items_e02c02_city_tavern_computer" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_tavern_computer_mo_ex_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_tavern_computer">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_tavern_computer_ex_2" />
+      </item>
+      <item idref="items_e02c02_city_tavern_table" visualisation="default" interactionmode="none" mouseoverref="texts_e02c02_city_tavern_table_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c02_city_tavern_table">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_tavern_table_ex_1" />
+      </item>
+      <item idref="items_e02c02_city_tavern_postcard" visualisation="default" interactionmode="use" mouseoverref="texts_e02c02_city_tavern_postcard_mo_use_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c02_city_tavern_postcard_ex_2" />
+        <interaction mode="take" sequenceref="sequences_e02c02_city_tavern_postcard_take_1" />
+        <interaction mode="use" sequenceref="sequences_e02c02_city_tavern_postcard_use_1" />
+      </item>
+      <item idref="characters_ogrebody" visualisation="bar" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_characters_ogrebody" dialoggroup="default" />
+      <item idref="characters_golem" visualisation="unfinished" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_characters_golem" dialoggroup="default" />
+      <item idref="characters_pisspot" visualisation="suicide" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" dialoggroup="default" />
+      <item idref="items_outfit_wilbur_paperhat" visualisation="default" interactionmode="use" mouseoverref="texts_outfit_wilbur_paperhat_mo_use_2" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_outfit_wilbur_paperhat_use_1" />
+        <interaction mode="use" sequenceref="sequences_outfit_wilbur_paperhat_use_2" />
+      </item>
+    </items>
+    <scenes>
+      <scene idref="scenes_e02c02_city_square" />
+      <scene idref="scenes_start" />
+      <scene idref="scenes_e02c02_city_corner" />
+      <scene idref="scenes_e02c02_city_street" />
+      <scene idref="scenes_e02c02_school_classroom" />
+      <scene idref="scenes_e02c02_city_tavern" />
+      <scene idref="scenes_e02c02_city_gate" />
+      <scene idref="scenes_e02c02_school_hall" />
+      <scene idref="scenes_e02c02_school_classroomlab" />
+      <scene idref="scenes_e02c02_school_entrance" />
+    </scenes>
+    <topics>
+      <topic idref="topics_jorge_top_e02c02_character_jorge_geschaefte" sequenceref="sequences_jorge_top_e02c02_character_jorge_geschaefte_tseq" titleref="texts_jorge_top_e02c02_character_jorge_geschaefte_tseq_title" active="False" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_stadt" sequenceref="sequences_jorge_top_e02c02_character_jorge_stadt_tseq" titleref="texts_guard_top_e02c02_character_guard_unterstadt_tseq_title" active="False" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_wahl" sequenceref="sequences_jorge_top_e02c02_character_jorge_wahl_tseq" titleref="texts_jorge_top_e02c02_character_jorge_wahl_tseq_title" active="False" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_lotterie" sequenceref="sequences_jorge_top_e02c02_character_jorge_lotterie_tseq" titleref="texts_jorge_top_e02c02_character_jorge_lotterie_tseq_title" active="False" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_kran" sequenceref="sequences_jorge_top_e02c02_character_jorge_kran_tseq" titleref="texts_jorge_top_e02c02_character_jorge_kran_tseq_title" active="False" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_unterstadt" sequenceref="sequences_jorge_top_e02c02_character_jorge_unterstadt_tseq" titleref="texts_jorge_top_e02c02_character_jorge_unterstadt_tseq_title" active="False" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_stadtwache1" sequenceref="sequences_jorge_top_e02c02_character_jorge_stadtwache1_tseq" titleref="texts_jorge_top_e02c02_character_jorge_stadtwache1_tseq_title" active="False" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_stadtwache2" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_vertrauen" sequenceref="sequences_jorge_top_e02c02_character_jorge_vertrauen_tseq" titleref="texts_jorge_top_e02c02_character_jorge_vertrauen_tseq_title" active="False" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_wer_guybrush" sequenceref="sequences_jorge_top_e02c02_character_jorge_wer_guybrush_tseq" titleref="texts_jorge_top_e02c02_character_jorge_wer_guybrush_tseq_title" active="True" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_wer_wilbur" sequenceref="sequences_jorge_top_e02c02_character_jorge_wer_wilbur_tseq" titleref="texts_jorge_top_e02c02_character_jorge_wer_wilbur_tseq_title" active="True" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_wer_schildtraeger" sequenceref="sequences_jorge_top_e02c02_character_jorge_wer_schildtraeger_tseq" titleref="texts_jorge_top_e02c02_character_jorge_wer_schildtraeger_tseq_title" active="True" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_angebot_waren" sequenceref="sequences_jorge_top_e02c02_character_jorge_angebot_waren_tseq" titleref="texts_jorge_top_e02c02_character_jorge_angebot_waren_tseq_title" active="True" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_angebot_brandwein" sequenceref="sequences_jorge_top_e02c02_character_jorge_angebot_brandwein_tseq" titleref="texts_jorge_top_e02c02_character_jorge_angebot_brandwein_tseq_title" active="True" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_angebot_pony" sequenceref="sequences_jorge_top_e02c02_character_jorge_angebot_pony_tseq" titleref="texts_jorge_top_e02c02_character_jorge_angebot_pony_tseq_title" active="True" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_losung_keineahnung_1" sequenceref="sequences_jorge_top_e02c02_character_jorge_losung_keineahnung_1_tseq" titleref="texts_jorge_top_e02c02_character_jorge_losung_keineahnung_1_tseq_title" active="True" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_losung_wuschelhaase" sequenceref="sequences_jorge_top_e02c02_character_jorge_losung_wuschelhaase_tseq" titleref="texts_jorge_top_e02c02_character_jorge_losung_wuschelhaase_tseq_title" active="True" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_losung_jorge" sequenceref="sequences_jorge_top_e02c02_character_jorge_losung_jorge_tseq" titleref="texts_jorge_top_e02c02_character_jorge_losung_jorge_tseq_title" active="True" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_losung_keineahnung_2" sequenceref="sequences_jorge_top_e02c02_character_jorge_losung_keineahnung_2_tseq" titleref="texts_jorge_top_e02c02_character_jorge_losung_keineahnung_2_tseq_title" active="True" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_deal" sequenceref="sequences_jorge_top_e02c02_character_jorge_deal_tseq" titleref="texts_jorge_top_e02c02_character_jorge_deal_tseq_title" active="False" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_schiefertafel" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_droelf" sequenceref="sequences_jorge_top_e02c02_character_jorge_droelf_tseq" titleref="texts_jorge_top_e02c02_character_jorge_droelf_tseq_title" active="False" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_pisspott" sequenceref="sequences_jorge_top_e02c02_character_jorge_pisspott_tseq" titleref="texts_jorge_top_e02c02_character_jorge_pisspott_tseq_title" active="False" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_eisenwerke" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_verabschieden" sequenceref="sequences_jorge_top_e02c02_character_jorge_verabschieden_tseq" titleref="texts_guard_top_e02c02_character_guard_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_guard_top_e02c02_character_guard_aufstand" sequenceref="sequences_guard_top_e02c02_character_guard_aufstand_tseq" titleref="texts_guard_top_e02c02_character_guard_aufstand_tseq_title" active="False" />
+      <topic idref="topics_guard_top_e02c02_character_guard_deal" sequenceref="sequences_guard_top_e02c02_character_guard_deal_tseq" titleref="texts_guard_top_e02c02_character_guard_deal_tseq_title" active="False" />
+      <topic idref="topics_guard_top_e02c02_character_guard_hilfe_pony" sequenceref="sequences_guard_top_e02c02_character_guard_hilfe_pony_tseq" titleref="texts_guard_top_e02c02_character_guard_hilfe_pony_tseq_title" active="True" />
+      <topic idref="topics_guard_top_e02c02_character_guard_hilfe_zugang" sequenceref="sequences_guard_top_e02c02_character_guard_hilfe_zugang_tseq" titleref="texts_guard_top_e02c02_character_guard_hilfe_zugang_tseq_title" active="True" />
+      <topic idref="topics_guard_top_e02c02_character_guard_idee" sequenceref="sequences_guard_top_e02c02_character_guard_idee_tseq" titleref="texts_guard_top_e02c02_character_guard_idee_tseq_title" active="False" />
+      <topic idref="topics_guard_top_e02c02_character_guard_kran" sequenceref="sequences_guard_top_e02c02_character_guard_kran_tseq" titleref="texts_guard_top_e02c02_character_guard_kran_tseq_title" active="False" />
+      <topic idref="topics_guard_top_e02c02_character_guard_plakate" sequenceref="sequences_guard_top_e02c02_character_guard_plakate_tseq" titleref="texts_guard_top_e02c02_character_guard_plakate_tseq_title" active="False" />
+      <topic idref="topics_guard_top_e02c02_character_guard_plakateprotest" sequenceref="sequences_guard_top_e02c02_character_guard_plakateprotest_tseq" titleref="texts_guard_top_e02c02_character_guard_plakateprotest_tseq_title" active="False" />
+      <topic idref="topics_guard_top_e02c02_character_guard_plakateprotesterstmalig" sequenceref="sequences_guard_top_e02c02_character_guard_plakateprotesterstmalig_tseq" titleref="texts_guard_top_e02c02_character_guard_plakateprotesterstmalig_tseq_title" active="False" />
+      <topic idref="topics_guard_top_e02c02_character_guard_schmiergeld" sequenceref="sequences_guard_top_e02c02_character_guard_schmiergeld_tseq" titleref="texts_guard_top_e02c02_character_guard_schmiergeld_tseq_title" active="False" />
+      <topic idref="topics_guard_top_e02c02_character_guard_schmuggelmarkiert" sequenceref="sequences_guard_top_e02c02_character_guard_schmuggelmarkiert_tseq" titleref="texts_guard_top_e02c02_character_guard_schmuggelmarkiert_tseq_title" active="False" />
+      <topic idref="topics_guard_top_e02c02_character_guard_schmuggelplan" sequenceref="sequences_guard_top_e02c02_character_guard_schmuggelplan_tseq" titleref="texts_guard_top_e02c02_character_guard_schmuggelplan_tseq_title" active="False" />
+      <topic idref="topics_guard_top_e02c02_character_guard_stadtwache" sequenceref="sequences_guard_top_e02c02_character_guard_stadtwache_tseq" titleref="texts_guard_top_e02c02_character_guard_stadtwache_tseq_title" active="False" />
+      <topic idref="topics_guard_top_e02c02_character_guard_statue" sequenceref="sequences_guard_top_e02c02_character_guard_statue_tseq" titleref="texts_guard_top_e02c02_character_guard_statue_tseq_title" active="False" />
+      <topic idref="topics_guard_top_e02c02_character_guard_unterstadt" sequenceref="sequences_guard_top_e02c02_character_guard_unterstadt_tseq" titleref="texts_guard_top_e02c02_character_guard_unterstadt_tseq_title" active="False" />
+      <topic idref="topics_guard_top_e02c02_character_guard_wetterquarz" sequenceref="sequences_guard_top_e02c02_character_guard_wetterquarz_tseq" titleref="texts_guard_top_e02c02_character_guard_wetterquarz_tseq_title" active="False" />
+      <topic idref="topics_ogremage_top_e02c02_character_ogremage_alkohol" sequenceref="sequences_ogremage_top_e02c02_character_ogremage_alkohol_tseq" titleref="texts_ogremage_top_e02c02_character_ogremage_alkohol_tseq_title" active="False" />
+      <topic idref="topics_ogremage_top_e02c02_character_ogremage_baeckerei" sequenceref="sequences_ogremage_top_e02c02_character_ogremage_baeckerei_tseq" titleref="texts_ogremage_top_e02c02_character_ogremage_baeckerei_tseq_title" active="False" />
+      <topic idref="topics_ogremage_top_e02c02_character_ogremage_branntwein" sequenceref="sequences_ogremage_top_e02c02_character_ogremage_branntwein_tseq" titleref="texts_ogremage_top_e02c02_character_ogremage_branntwein_tseq_title" active="False" />
+      <topic idref="topics_ogremage_top_e02c02_character_ogremage_deal" sequenceref="sequences_ogremage_top_e02c02_character_ogremage_deal_tseq" titleref="texts_ogremage_top_e02c02_character_ogremage_deal_tseq_title" active="False" />
+      <topic idref="topics_ogremage_top_e02c02_character_ogremage_gasthaus" sequenceref="sequences_ogremage_top_e02c02_character_ogremage_gasthaus_tseq" titleref="texts_ogremage_top_e02c02_character_ogremage_gasthaus_tseq_title" active="False" />
+      <topic idref="topics_ogremage_top_e02c02_character_ogremage_geheimnisse" sequenceref="sequences_ogremage_top_e02c02_character_ogremage_geheimnisse_tseq" titleref="texts_ogremage_top_e02c02_character_ogremage_geheimnisse_tseq_title" active="False" />
+      <topic idref="topics_ogremage_top_e02c02_character_ogremage_golem" sequenceref="sequences_ogremage_top_e02c02_character_ogremage_golem_tseq" titleref="texts_ogremage_top_e02c02_character_ogremage_golem_tseq_title" active="False" />
+      <topic idref="topics_ogremage_top_e02c02_character_ogremage_haendler" sequenceref="sequences_ogremage_top_e02c02_character_ogremage_haendler_tseq" titleref="texts_ogremage_top_e02c02_character_ogremage_haendler_tseq_title" active="False" />
+      <topic idref="topics_ogremage_top_e02c02_character_ogremage_jacke" sequenceref="sequences_ogremage_top_e02c02_character_ogremage_jacke_tseq" titleref="texts_ogremage_top_e02c02_character_ogremage_jacke_tseq_title" active="False" />
+      <topic idref="topics_ogremage_top_e02c02_character_ogremage_jorge" sequenceref="sequences_ogremage_top_e02c02_character_ogremage_jorge_tseq" titleref="texts_ogremage_top_e02c02_character_ogremage_jorge_tseq_title" active="False" />
+      <topic idref="topics_ogremage_top_e02c02_character_ogremage_kopfschmerzen" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_ogremage_top_e02c02_character_ogremage_pralineblau" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_ogremage_top_e02c02_character_ogremage_pralineblaualkohol" sequenceref="sequences_ogremage_top_e02c02_character_ogremage_pralineblaualkohol_tseq" titleref="texts_ogremage_top_e02c02_character_ogremage_pralineblaualkohol_tseq_title" active="False" />
+      <topic idref="topics_ogremage_top_e02c02_character_ogremage_pralineblauerstmalig" sequenceref="sequences_ogremage_top_e02c02_character_ogremage_pralineblauerstmalig_tseq" titleref="texts_ogremage_top_e02c02_character_ogremage_pralineblauerstmalig_tseq_title" active="False" />
+      <topic idref="topics_ogremage_top_e02c02_character_ogremage_pralinerot" sequenceref="sequences_ogremage_top_e02c02_character_ogremage_pralinerot_tseq" titleref="texts_ogremage_top_e02c02_character_ogremage_pralinerot_tseq_title" active="True" />
+      <topic idref="topics_ogremage_top_e02c02_character_ogremage_verabschieden" sequenceref="sequences_ogremage_top_e02c02_character_ogremage_verabschieden_tseq" titleref="texts_ogremage_top_e02c02_character_ogremage_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_ogremage_top_e02c02_character_ogremage_verabschiedenerstmalig" sequenceref="sequences_ogremage_top_e02c02_character_ogremage_verabschiedenerstmalig_tseq" titleref="texts_ogremage_top_e02c02_character_ogremage_verabschiedenerstmalig_tseq_title" active="False" />
+      <topic idref="topics_ogremage_top_e02c02_character_ogremage_wache" sequenceref="sequences_ogremage_top_e02c02_character_ogremage_wache_tseq" titleref="texts_ogremage_top_e02c02_character_ogremage_wache_tseq_title" active="False" />
+      <topic idref="topics_ogremage_top_e02c02_character_ogremage_wahl" sequenceref="sequences_ogremage_top_e02c02_character_ogremage_wahl_tseq" titleref="texts_ogremage_top_e02c02_character_ogremage_wahl_tseq_title" active="False" />
+      <topic idref="topics_ogremage_top_e02c02_character_ogremage_zweikoepfe" sequenceref="sequences_ogremage_top_e02c02_character_ogremage_zweikoepfe_tseq" titleref="texts_ogremage_top_e02c02_character_ogremage_zweikoepfe_tseq_title" active="False" />
+      <topic idref="topics_pad_top_e02c02_character_pad_golembauen" sequenceref="sequences_pad_top_e02c02_character_pad_golembauen_tseq" titleref="texts_pad_top_e02c02_character_pad_golembauen_tseq_title" active="False" />
+      <topic idref="topics_pad_top_e02c02_character_pad_golembody" sequenceref="sequences_pad_top_e02c02_character_pad_golembody_tseq" titleref="texts_pad_top_e02c02_character_pad_golembody_tseq_title" active="False" />
+      <topic idref="topics_pad_top_e02c02_character_pad_golems" sequenceref="sequences_pad_top_e02c02_character_pad_golems_tseq" titleref="texts_pad_top_e02c02_character_pad_golems_tseq_title" active="False" />
+      <topic idref="topics_pad_top_e02c02_character_pad_golemtinte" sequenceref="sequences_pad_top_e02c02_character_pad_golemtinte_tseq" titleref="texts_pad_top_e02c02_character_pad_golemtinte_tseq_title" active="False" />
+      <topic idref="topics_pad_top_e02c02_character_pad_golemtintemixen" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_pad_top_e02c02_character_pad_golemzutaten" sequenceref="sequences_pad_top_e02c02_character_pad_golemzutaten_tseq" titleref="texts_pad_top_e02c02_character_pad_golemzutaten_tseq_title" active="True" />
+      <topic idref="topics_pad_top_e02c02_character_pad_stimmen" sequenceref="sequences_pad_top_e02c02_character_pad_stimmen_tseq" titleref="texts_pad_top_e02c02_character_pad_stimmen_tseq_title" active="False" />
+      <topic idref="topics_pad_top_e02c02_character_pad_stimmenstand" sequenceref="sequences_pad_top_e02c02_character_pad_stimmenstand_tseq" titleref="texts_pad_top_e02c02_character_pad_stimmenstand_tseq_title" active="True" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_baldfrei" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_baldfrei_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_baldfrei_tseq_title" active="False" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_hammer" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_hammer_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_hammer_tseq_title" active="False" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_hammerundmeissel" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_hammerundmeissel_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_hammerundmeissel_tseq_title" active="False" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_hammer_modell" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_hammer_modell_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_hammer_modell_tseq_title" active="False" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_hammer_spaeter" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_hammer_spaeter_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_hammer_spaeter_tseq_title" active="True" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_hammer_tausch" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_hammer_tausch_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_hammer_tausch_tseq_title" active="False" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_handzeichen" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_handzeichen_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_handzeichen_tseq_title" active="False" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_handzeichen_du" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_handzeichen_du_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_handzeichen_du_tseq_title" active="False" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_handzeichen_lust" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_handzeichen_lust_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_handzeichen_lust_tseq_title" active="True" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_handzeichen_nochmal" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_handzeichen_nochmal_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_handzeichen_nochmal_tseq_title" active="False" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_handzeichen_spaeter" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_handzeichen_spaeter_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_handzeichen_spaeter_tseq_title" active="True" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_jacke" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_jacke_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_jacke_tseq_title" active="False" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_konsequenzen_einsturz" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_konseqen_einsturz_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_konseqen_einsturz_tseq_title" active="False" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_konsequenzen_funken" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_konseqen_funken_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_konseqen_funken_tseq_title" active="True" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_konsequenzen_scherz" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_konseqen_scherz_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_konseqen_scherz_tseq_title" active="True" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_kuchen" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_kuchen_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_kuchen_tseq_title" active="False" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_meissel" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_meissel_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_meissel_tseq_title" active="False" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_meissel_befreien" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_meissel_befreien_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_meissel_befreien_tseq_title" active="False" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_meissel_unsicher" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_meissel_unsicher_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_meissel_unsicher_tseq_title" active="True" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_protestler" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_protestler_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_protestler_tseq_title" active="False" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_verabschieden" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_verabschieden_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_warum" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_warum_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_warum_tseq_title" active="False" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_wer" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_wer_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_wer_tseq_title" active="False" />
+      <topic idref="topics_prisoner_top_e02c02_character_prisoner_wielange" sequenceref="sequences_prisoner_top_e02c02_character_prisoner_wielange_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_wielange_tseq_title" active="False" />
+      <topic idref="topics_door_top_e02c02_character_door_sprechen" sequenceref="sequences_door_top_e02c02_character_door_sprechen_tseq" titleref="texts_door_top_e02c02_character_door_sprechen_tseq_title" active="False" />
+      <topic idref="topics_door_top_e02c02_character_door_oeffnen" sequenceref="sequences_door_top_e02c02_character_door_oeffnen_tseq" titleref="texts_door_top_e02c02_character_door_oeffnen_tseq_title" active="False" />
+      <topic idref="topics_door_top_e02c02_character_door_keincode" sequenceref="sequences_door_top_e02c02_character_door_keincode_tseq" titleref="texts_door_top_e02c02_character_door_keincode_tseq_title" active="False" />
+      <topic idref="topics_door_top_e02c02_character_door_codeerstmalig" sequenceref="sequences_door_top_e02c02_character_door_codeerstmalig_tseq" titleref="texts_door_top_e02c02_character_door_codeerstmalig_tseq_title" active="False" />
+      <topic idref="topics_door_top_e02c02_character_door_stimme" sequenceref="sequences_door_top_e02c02_character_door_stimme_tseq" titleref="texts_door_top_e02c02_character_door_stimme_tseq_title" active="True" />
+      <topic idref="topics_door_top_e02c02_character_door_sicherheitssystem" sequenceref="sequences_door_top_e02c02_character_door_sicherheitssystem_tseq" titleref="texts_door_top_e02c02_character_door_sicherheitssystem_tseq_title" active="False" />
+      <topic idref="topics_door_top_e02c02_character_door_verabschieden" sequenceref="sequences_door_top_e02c02_character_door_verabschieden_tseq" titleref="texts_guard_top_e02c02_character_guard_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_pad_top_e02c02_character_pad_verabschieden" sequenceref="sequences_pad_top_e02c02_character_pad_verabschieden_tseq" titleref="texts_pad_top_e02c02_character_pad_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_ogrethug_top_e02c02_character_ogrethug_ratsvorsitzende" sequenceref="sequences_ogrethug_top_e02c02_character_ogrethug_ratsvorsitzende_tseq" titleref="texts_ogrethug_top_e02c02_character_ogrethug_ratsvorsitzende_tseq_title" active="False" />
+      <topic idref="topics_ogrethug_top_e02c02_character_ogrethug_arbeit" sequenceref="sequences_ogrethug_top_e02c02_character_ogrethug_arbeit_tseq" titleref="texts_ogrethug_top_e02c02_character_ogrethug_arbeit_tseq_title" active="False" />
+      <topic idref="topics_ogrethug_top_e02c02_character_ogrethug_fluestern" sequenceref="sequences_ogrethug_top_e02c02_character_ogrethug_fluestern_tseq" titleref="texts_ogrethug_top_e02c02_character_ogrethug_fluestern_tseq_title" active="False" />
+      <topic idref="topics_ogrethug_top_e02c02_character_ogrethug_lauschen" sequenceref="sequences_ogrethug_top_e02c02_character_ogrethug_lauschen_tseq" titleref="texts_ogrethug_top_e02c02_character_ogrethug_lauschen_tseq_title" active="False" />
+      <topic idref="topics_ogrethug_top_e02c02_character_ogrethug_golem_zloff" sequenceref="sequences_ogrethug_top_e02c02_character_ogrethug_golem_zloff_tseq" titleref="texts_ogrethug_top_e02c02_character_ogrethug_golem_zloff_tseq_title" active="False" />
+      <topic idref="topics_ogrethug_top_e02c02_character_ogrethug_golem_fluestern" sequenceref="sequences_ogrethug_top_e02c02_character_ogrethug_golem_fluestern_tseq" titleref="texts_ogrethug_top_e02c02_character_ogrethug_golem_fluestern_tseq_title" active="False" />
+      <topic idref="topics_ogrethug_top_e02c02_character_ogrethug_golem_warum" sequenceref="sequences_ogrethug_top_e02c02_character_ogrethug_golem_warum_tseq" titleref="texts_ogrethug_top_e02c02_character_ogrethug_golem_warum_tseq_title" active="False" />
+      <topic idref="topics_ogrethug_top_e02c02_character_ogrethug_golem_wo" sequenceref="sequences_ogrethug_top_e02c02_character_ogrethug_golem_wo_tseq" titleref="texts_ogrethug_top_e02c02_character_ogrethug_golem_wo_tseq_title" active="False" />
+      <topic idref="topics_ogrethug_top_e02c02_character_ogrethug_verabschieden" sequenceref="sequences_ogrethug_top_e02c02_character_ogrethug_verabschieden_tseq" titleref="texts_ogrethug_top_e02c02_character_ogrethug_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_king_top_e02c02_character_king_nichtfragen" sequenceref="sequences_king_top_e02c02_character_king_nichtfragen_tseq" titleref="texts_king_top_e02c02_character_king_nichtfragen_tseq_title" active="False" />
+      <topic idref="topics_king_top_e02c02_character_king_gemein" sequenceref="sequences_king_top_e02c02_character_king_gemein_tseq" titleref="texts_king_top_e02c02_character_king_gemein_tseq_title" active="False" />
+      <topic idref="topics_king_top_e02c02_character_king_beobachtung" sequenceref="sequences_king_top_e02c02_character_king_beobachtung_tseq" titleref="texts_king_top_e02c02_character_king_beobachtung_tseq_title" active="False" />
+      <topic idref="topics_king_top_e02c02_character_king_stress" sequenceref="sequences_king_top_e02c02_character_king_stress_tseq" titleref="texts_king_top_e02c02_character_king_stress_tseq_title" active="False" />
+      <topic idref="topics_king_top_e02c02_character_king_ratsvorsitzende" sequenceref="sequences_king_top_e02c02_character_king_ratsvorsitzende_tseq" titleref="texts_king_top_e02c02_character_king_ratsvorsitzende_tseq_title" active="False" />
+      <topic idref="topics_king_top_e02c02_character_king_wahl" sequenceref="sequences_king_top_e02c02_character_king_wahl_tseq" titleref="texts_king_top_e02c02_character_king_wahl_tseq_title" active="False" />
+      <topic idref="topics_king_top_e02c02_character_king_erzmagier" sequenceref="sequences_king_top_e02c02_character_king_erzmagier_tseq" titleref="texts_king_top_e02c02_character_king_erzmagier_tseq_title" active="False" />
+      <topic idref="topics_king_top_e02c02_character_king_plan" sequenceref="sequences_king_top_e02c02_character_king_plan_tseq" titleref="texts_king_top_e02c02_character_king_plan_tseq_title" active="False" />
+      <topic idref="topics_king_top_e02c02_character_king_golem" sequenceref="sequences_king_top_e02c02_character_king_golem_tseq" titleref="texts_king_top_e02c02_character_king_golem_tseq_title" active="False" />
+      <topic idref="topics_king_top_e02c02_character_king_steinhart_wilbur" sequenceref="sequences_king_top_e02c02_character_king_steinhart_wilbur_tseq" titleref="texts_king_top_e02c02_character_king_steinhart_wilbur_tseq_title" active="True" />
+      <topic idref="topics_king_top_e02c02_character_king_steinhart_troll" sequenceref="sequences_king_top_e02c02_character_king_steinhart_troll_tseq" titleref="texts_king_top_e02c02_character_king_steinhart_troll_tseq_title" active="True" />
+      <topic idref="topics_king_top_e02c02_character_king_steinhart_golem" sequenceref="sequences_king_top_e02c02_character_king_steinhart_golem_tseq" titleref="texts_king_top_e02c02_character_king_steinhart_golem_tseq_title" active="False" />
+      <topic idref="topics_king_top_e02c02_character_king_verabschieden" sequenceref="sequences_king_top_e02c02_character_king_verabschieden_tseq" titleref="texts_king_top_e02c02_character_king_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_reporter_top_e02c02_character_reporter_glas" sequenceref="sequences_reporter_top_e02c02_character_reporter_glas_tseq" titleref="texts_reporter_top_e02c02_character_reporter_glas_tseq_title" active="False" />
+      <topic idref="topics_reporter_top_e02c02_character_reporter_glueck" sequenceref="sequences_reporter_top_e02c02_character_reporter_glueck_tseq" titleref="texts_reporter_top_e02c02_character_reporter_glueck_tseq_title" active="False" />
+      <topic idref="topics_reporter_top_e02c02_character_reporter_lotterie" sequenceref="sequences_reporter_top_e02c02_character_reporter_lotterie_tseq" titleref="texts_reporter_top_e02c02_character_reporter_lotterie_tseq_title" active="False" />
+      <topic idref="topics_reporter_top_e02c02_character_reporter_schreiben" sequenceref="sequences_reporter_top_e02c02_character_reporter_schreiben_tseq" titleref="texts_reporter_top_e02c02_character_reporter_schreiben_tseq_title" active="False" />
+      <topic idref="topics_reporter_top_e02c02_character_reporter_verabschieden" sequenceref="sequences_reporter_top_e02c02_character_reporter_verabschieden_tseq" titleref="texts_prisoner_top_e02c02_character_prisoner_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_reporter_top_e02c02_character_reporter_zeitung" sequenceref="sequences_reporter_top_e02c02_character_reporter_zeitung_tseq" titleref="texts_reporter_top_e02c02_character_reporter_zeitung_tseq_title" active="False" />
+      <topic idref="topics_reporter_top_e02c02_character_reporter_zoll" sequenceref="sequences_reporter_top_e02c02_character_reporter_zoll_tseq" titleref="texts_reporter_top_e02c02_character_reporter_zoll_tseq_title" active="False" />
+      <topic idref="topics_protesters_top_e02c02_character_protesters_barrikade" sequenceref="sequences_protesters_top_e02c02_character_protesters_barrikade_tseq" titleref="texts_protesters_top_e02c02_character_protesters_barrikade_tseq_title" active="False" />
+      <topic idref="topics_protesters_top_e02c02_character_protesters_forderungen" sequenceref="sequences_protesters_top_e02c02_character_protesters_forderungen_tseq" titleref="texts_protesters_top_e02c02_character_protesters_forderungen_tseq_title" active="False" />
+      <topic idref="topics_protesters_top_e02c02_character_protesters_gefangener" sequenceref="sequences_protesters_top_e02c02_character_protesters_gefangener_tseq" titleref="texts_protesters_top_e02c02_character_protesters_gefangener_tseq_title" active="False" />
+      <topic idref="topics_protesters_top_e02c02_character_protesters_ton" sequenceref="sequences_protesters_top_e02c02_character_protesters_ton_tseq" titleref="texts_protesters_top_e02c02_character_protesters_ton_tseq_title" active="False" />
+      <topic idref="topics_protesters_top_e02c02_character_protesters_tonhilfe" sequenceref="sequences_protesters_top_e02c02_character_protesters_tonhilfe_tseq" titleref="texts_protesters_top_e02c02_character_protesters_tonhilfe_tseq_title" active="False" />
+      <topic idref="topics_protesters_top_e02c02_character_protesters_tonhilfe_barrikade" sequenceref="sequences_protesters_top_e02c02_character_protesters_tonhilfe_barrikade_tseq" titleref="texts_protesters_top_e02c02_character_protesters_tonhilfe_barrikade_tseq_title" active="False" />
+      <topic idref="topics_protesters_top_e02c02_character_protesters_tonhilfe_statue" sequenceref="sequences_protesters_top_e02c02_character_protesters_tonhilfe_statue_tseq" titleref="texts_protesters_top_e02c02_character_protesters_tonhilfe_statue_tseq_title" active="False" />
+      <topic idref="topics_protesters_top_e02c02_character_protesters_tonhilfe_zerstoerung" sequenceref="sequences_protesters_top_e02c02_character_protesters_tonhilfe_zerstoerung_tseq" titleref="texts_protesters_top_e02c02_character_protesters_tonhilfe_zerstoerung_tseq_title" active="False" />
+      <topic idref="topics_protesters_top_e02c02_character_protesters_tonstatus" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_protesters_top_e02c02_character_protesters_unterstadt" sequenceref="sequences_protesters_top_e02c02_character_protesters_unterstadt_tseq" titleref="texts_guard_top_e02c02_character_guard_unterstadt_tseq_title" active="False" />
+      <topic idref="topics_protesters_top_e02c02_character_protesters_verlassen" sequenceref="sequences_protesters_top_e02c02_character_protesters_leave_tseq" titleref="texts_guard_top_e02c02_character_guard_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_protesters_top_e02c02_character_protesters_wahl" sequenceref="sequences_protesters_top_e02c02_character_protesters_wahl_tseq" titleref="texts_protesters_top_e02c02_character_protesters_wahl_tseq_title" active="False" />
+      <topic idref="topics_protesters_top_e02c02_character_protesters_warum" sequenceref="sequences_protesters_top_e02c02_character_protesters_warum_tseq" titleref="texts_protesters_top_e02c02_character_protesters_warum_tseq_title" active="False" />
+      <topic idref="topics_protesters_top_e02c02_character_protesters_wer" sequenceref="sequences_protesters_top_e02c02_character_protesters_wer_tseq" titleref="texts_protesters_top_e02c02_character_protesters_wer_tseq_title" active="False" />
+      <topic idref="topics_protesters_top_e02c02_character_protesters_zeichen" sequenceref="sequences_protesters_top_e02c02_character_protesters_zeichen_tseq" titleref="texts_protesters_top_e02c02_character_protesters_zeichen_tseq_title" active="False" />
+      <topic idref="topics_boy_top_e02c02_character_boy_schule" sequenceref="sequences_boy_top_e02c02_character_boy_schule_tseq" titleref="texts_boy_top_e02c02_character_boy_schule_tseq_title" active="False" />
+      <topic idref="topics_boy_top_e02c02_character_boy_zwilling" sequenceref="sequences_boy_top_e02c02_character_boy_zwilling_tseq" titleref="texts_boy_top_e02c02_character_boy_zwilling_tseq_title" active="False" />
+      <topic idref="topics_boy_top_e02c02_character_boy_spiel" sequenceref="sequences_boy_top_e02c02_character_boy_spiel_tseq" titleref="texts_boy_top_e02c02_character_boy_spiel_tseq_title" active="False" />
+      <topic idref="topics_boy_top_e02c02_character_boy_artefakt" sequenceref="sequences_boy_top_e02c02_character_boy_artefakt_tseq" titleref="texts_boy_top_e02c02_character_boy_artefakt_tseq_title" active="False" />
+      <topic idref="topics_boy_top_e02c02_character_boy_spaet" sequenceref="sequences_boy_top_e02c02_character_boy_spaet_tseq" titleref="texts_boy_top_e02c02_character_boy_spaet_tseq_title" active="False" />
+      <topic idref="topics_boy_top_e02c02_character_boy_oberstadt" sequenceref="sequences_boy_top_e02c02_character_boy_oberstadt_tseq" titleref="texts_boy_top_e02c02_character_boy_oberstadt_tseq_title" active="False" />
+      <topic idref="topics_boy_top_e02c02_character_boy_verabschieden" sequenceref="sequences_boy_top_e02c02_character_boy_verabschieden_tseq" titleref="texts_boy_top_e02c02_character_boy_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_ratboy_top_e02c02_character_timmy_gesundheit" sequenceref="sequences_ratboy_top_e02c02_character_timmy_gesundheit_tseq" titleref="texts_ratboy_top_e02c02_character_timmy_gesundheit_tseq_title" active="False" />
+      <topic idref="topics_ratboy_top_e02c02_character_timmy_helfen_nichtnoetig" sequenceref="sequences_ratboy_top_e02c02_character_timmy_helfen_nichtnoetig_tseq" titleref="texts_ratboy_top_e02c02_character_timmy_helfen_nichtnoetig_tseq_title" active="True" />
+      <topic idref="topics_ratboy_top_e02c02_character_timmy_helfen_unsicher" sequenceref="sequences_ratboy_top_e02c02_character_timmy_helfen_unsicher_tseq" titleref="texts_ratboy_top_e02c02_character_timmy_helfen_unsicher_tseq_title" active="False" />
+      <topic idref="topics_ratboy_top_e02c02_character_timmy_koenig" sequenceref="sequences_ratboy_top_e02c02_character_timmy_koenig_tseq" titleref="texts_ratboy_top_e02c02_character_timmy_koenig_tseq_title" active="False" />
+      <topic idref="topics_ratboy_top_e02c02_character_timmy_lehrerzimmer" sequenceref="sequences_ratboy_top_e02c02_character_timmy_lehrerzimmer_tseq" titleref="texts_ratboy_top_e02c02_character_timmy_lehrerzimmer_tseq_title" active="False" />
+      <topic idref="topics_ratboy_top_e02c02_character_timmy_pralineblau" sequenceref="sequences_ratboy_top_e02c02_character_timmy_pralineblau_tseq" titleref="texts_ratboy_top_e02c02_character_timmy_pralineblau_tseq_title" active="True" />
+      <topic idref="topics_ratboy_top_e02c02_character_timmy_pralinefensterblau" sequenceref="sequences_ratboy_top_e02c02_character_timmy_pralinefensterblau_tseq" titleref="texts_ratboy_top_e02c02_character_timmy_pralinefensterblau_tseq_title" active="False" />
+      <topic idref="topics_ratboy_top_e02c02_character_timmy_pralinefensterrot" sequenceref="sequences_ratboy_top_e02c02_character_timmy_pralinefensterrot_tseq" titleref="texts_ratboy_top_e02c02_character_timmy_pralinefensterrot_tseq_title" active="True" />
+      <topic idref="topics_ratboy_top_e02c02_character_timmy_pralinerot" sequenceref="sequences_ratboy_top_e02c02_character_timmy_pralinerot_tseq" titleref="texts_ratboy_top_e02c02_character_timmy_pralinerot_tseq_title" active="True" />
+      <topic idref="topics_ratboy_top_e02c02_character_timmy_tunnels" sequenceref="sequences_ratboy_top_e02c02_character_timmy_tunnels_tseq" titleref="texts_ratboy_top_e02c02_character_timmy_tunnels_tseq_title" active="False" />
+      <topic idref="topics_ratboy_top_e02c02_character_timmy_verabschieden" sequenceref="sequences_ratboy_top_e02c02_character_timmy_verabschieden_tseq" titleref="texts_ratboy_top_e02c02_character_timmy_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_ratboy_top_e02c02_character_timmy_verabschieden_erstmalig" sequenceref="sequences_ratboy_top_e02c02_character_timmy_verabschieden_erstmalig_tseq" titleref="texts_ratboy_top_e02c02_character_timmy_verabschieden_erstmalig_tseq_title" active="False" />
+      <topic idref="topics_pad_top_e02c02_character_pad_codesagen" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_aufgaben" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_aufgaben_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_aufgaben_tseq_title" active="False" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_doorcode" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_doorcode_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_doorcode_tseq_title" active="False" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_doorstimme" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_doorstimme_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_doorstimme_tseq_title" active="False" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_gold" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_gold_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_gold_tseq_title" active="False" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_matheneu" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_matheneu_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_matheneu_tseq_title" active="True" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_neun" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_neun_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_neun_tseq_title" active="False" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_neun_ballons" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_neun_ballons_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_neun_ballons_tseq_title" active="False" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_neun_ende" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_neun_ende_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_neun_ende_tseq_title" active="True" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_neun_ringe" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_neun_ringe_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_neun_ringe_tseq_title" active="True" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_neun_zwergenstarkbier" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_neun_zwergenstarkbier_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_neun_zwergenstarkbier_tseq_title" active="True" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_pictureclass" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_pictureclass_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_pictureclass_tseq_title" active="False" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_schatzmeister" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_schatzmeister_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_schatzmeister_tseq_title" active="False" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_verabschieden" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_verabschieden_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_verabschieden_erstmalig" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_verabschieden_erstmalig_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_verabschieden_tseq_title" active="False" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_wasser" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_wasser_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_wasser_tseq_title" active="False" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_mathe1_65plus" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_mathe1_65plus_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_mathe1_65plus_tseq_title" active="True" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_mathe1_17minus" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_mathe1_17minus_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_mathe1_17minus_tseq_title" active="True" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_mathe1_37plus" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_mathe1_37plus_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_mathe1_37plus_tseq_title" active="True" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_mathe2_50minus" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_mathe2_50minus_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_mathe2_50minus_tseq_title" active="True" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_mathe2_23minus" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_mathe2_23minus_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_mathe2_23minus_tseq_title" active="True" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_mathe2_27plus" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_mathe2_27plus_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_mathe2_27plus_tseq_title" active="True" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_mathe3_33ist" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_mathe3_33ist_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_mathe3_33ist_tseq_title" active="True" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_mathe3_47ist" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_mathe3_47ist_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_mathe3_47ist_tseq_title" active="True" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_mathe3_45ist" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_mathe3_45ist_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_mathe3_45ist_tseq_title" active="True" />
+      <topic idref="topics_guard_top_e02c02_character_guard_verabschieden" sequenceref="sequences_guard_top_e02c02_character_guard_verabschieden_tseq" titleref="texts_guard_top_e02c02_character_guard_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_door_top_e02c02_character_door_stimmepad" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_krokodilstraenen" sequenceref="sequences_jorge_top_e02c02_character_jorge_krokodilstraenen_tseq" titleref="texts_jorge_top_e02c02_character_jorge_krokodilstraenen_tseq_title" active="False" />
+      <topic idref="topics_jorge_top_e02c02_character_jorge_drachenschweiss" sequenceref="sequences_jorge_top_e02c02_character_jorge_drachenschweiss_tseq" titleref="texts_jorge_top_e02c02_character_jorge_drachenschweiss_tseq_title" active="True" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_mathechampion" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_mathechampion_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_mathechampion_tseq_title" active="False" />
+      <topic idref="topics_schlmaster_top_e02c02_character_schlmaster_neunneu" sequenceref="sequences_schlmaster_top_e02c02_character_schlmaster_neunneu_tseq" titleref="texts_schlmaster_top_e02c02_character_schlmaster_neunneu_tseq_title" active="False" />
+    </topics>
+    <currentscene sceneid="scenes_e02c02_city_tavern" shot="default" />
+    <questlog />
+    <global>
+      <flags>
+        <outfits_ivo_fishinghat />
+        <outfits_wilbur_paperhat />
+      </flags>
+    </global>
+    <inventory>
+      <character characterid="characters_wilbur">
+        <item itemid="items_e02c02_city_square_pad" />
+        <item itemid="items_e02c02_city_square_magicwand" />
+        <item itemid="items_e02c02_city_square_writingpad" />
+        <item itemid="items_outfit_wilbur_paperhat" />
+        <item itemid="items_e02c02_city_tavern_postcard" />
+        <item itemid="items_e02c02_city_tavern_pin" />
+        <item itemid="items_e02c02_city_square_keygate" />
+        <item itemid="items_e02_c02_school_entrance_mop" />
+        <item itemid="items_e02c02_school_classroom_pictureclass" />
+        <item itemid="items_e02c02_city_square_deliverynote" />
+        <item itemid="items_e02_c02_city_street_bills" />
+        <item itemid="items_e02_c02_city_street_code" />
+        <item itemid="items_e02_c02_city_street_character_ratboy" />
+        <item itemid="items_e02c02_city_corner_chocolatered" />
+      </character>
+    </inventory>
+    <party />
+    <logics>
+      <logic idref="items_e02c02_city_corner_bakery">
+        <state stateid="examine_b" />
+      </logic>
+      <logic idref="items_e02c02_city_corner_billboard">
+        <interactionitem item="items_e02c02_school_classroom_pictureclass" />
+        <property key="examined" value="True" />
+        <property key="glue_used" value="True" />
+        <property key="posted_bill" value="True" />
+        <interactionitem item="items_e02_c02_school_entrance_mop" />
+        <history stateid="State_4">
+          <state stateid="examine_3" />
+        </history>
+        <state stateid="glue_and_bills" />
+        <state stateid="bill_posted" />
+        <state stateid="mopped_with_bill" />
+      </logic>
+      <logic idref="items_e02c02_city_corner_chalk">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_corner_chisel">
+        <property key="got" value="False" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_corner_chocolateblue">
+        <property key="got" value="False" />
+        <property key="switched" value="True" />
+        <interactionitem item="items_e02c02_city_corner_chocolatered" />
+        <state stateid="switched" />
+        <state stateid="not_inventory" />
+      </logic>
+      <logic idref="items_e02c02_city_corner_chocolatered">
+        <property key="got" value="True" />
+        <property key="switched" value="True" />
+        <state stateid="ogremage_knockout" />
+        <state stateid="inventory" />
+      </logic>
+      <logic idref="items_e02c02_city_corner_exitcitygate">
+        <interactionitem item="items_e02c02_city_square_magicwand" />
+        <history stateid="State_2">
+          <state stateid="leave_spoken" />
+        </history>
+        <history stateid="State_5">
+          <state stateid="key_used" />
+        </history>
+        <state stateid="leave_spoken" />
+        <state stateid="key_used" />
+      </logic>
+      <logic idref="items_e02c02_city_corner_exitcitysquare">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e02c02_city_corner_golemarms">
+        <property key="got" value="True" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_corner_grating">
+        <interactionitem item="items_e02_c02_city_street_character_ratboy" />
+        <history stateid="State_4">
+          <state stateid="only_blue" />
+        </history>
+        <state stateid="examined1" />
+        <state stateid="only_red" />
+      </logic>
+      <logic idref="items_e02c02_city_corner_shield">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_corner_statue">
+        <interactionitem item="items_e02c02_city_corner_chalk" />
+        <interactionitem item="items_e02c02_city_corner_chisel" />
+        <interactionitem item="items_e02c02_city_gate_hammer" />
+        <property key="examined" value="True" />
+        <history stateid="State_1">
+          <state stateid="examine_1b" />
+        </history>
+        <history stateid="State_">
+          <state stateid="examine_2" />
+        </history>
+        <history stateid="State_2">
+          <state stateid="got_hammer" />
+        </history>
+        <history stateid="State_3">
+          <state stateid="used_by_chisel" />
+        </history>
+        <history stateid="State_4">
+          <state stateid="got_chisel" />
+        </history>
+        <history stateid="State_5">
+          <state stateid="used_by_hammer" />
+        </history>
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_gate_barrel">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_gate_exitcitycorner">
+        <interactionitem item="items_e02c02_city_square_keygate" />
+        <state stateid="key_default" />
+        <state stateid="not_used_key" />
+      </logic>
+      <logic idref="items_e02c02_city_gate_exitcitystreet">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e02c02_city_gate_hammer">
+        <property key="got" value="True" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_gate_junk">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_gate_lamp">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_gate_outhouse">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_gate_stage">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_gate_stall">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_gate_toolbox">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_gate_wall">
+        <property key="spoken" value="True" />
+        <state stateid="examine" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_square_barrel">
+        <interactionitem item="items_e02c02_city_corner_chalk" />
+        <state stateid="removed" />
+      </logic>
+      <logic idref="items_e02c02_city_square_crane">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_square_deliverynote">
+        <property key="got" value="True" />
+        <state stateid="inventory" />
+      </logic>
+      <logic idref="items_e02c02_city_square_exitcityguard">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e02c02_city_square_exitschoolentrance">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e02c02_city_square_goods">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_square_keygate">
+        <property key="got" value="True" />
+        <state stateid="inventory" />
+      </logic>
+      <logic idref="items_e02c02_city_square_lottery">
+        <property key="examined" value="True" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_square_magicantower">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_square_magicwand">
+        <interactionitem item="items_e02_c02_school_entrance_mop" />
+        <state stateid="inventory" />
+      </logic>
+      <logic idref="items_e02c02_city_square_pad">
+        <state stateid="golemtine_asked" />
+        <state stateid="talking" />
+      </logic>
+      <logic idref="items_e02c02_city_square_schooltower">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_square_transportcrate">
+        <property key="used" value="True" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_square_weathercock">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_square_writingpad">
+        <interactionitem item="items_e02c02_school_classroomlab_magicink" />
+        <interactionitem item="items_e02c02_school_hall_quill" />
+        <state stateid="nothing" />
+        <state stateid="usable" />
+      </logic>
+      <logic idref="items_e02c02_city_tavern_character_ogre">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_tavern_coat">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_tavern_computer">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_tavern_exitcitystreet">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e02c02_city_tavern_glas">
+        <property key="taken" value="True" />
+        <property key="filled_with_water" value="True" />
+        <history stateid="State_">
+          <state stateid="filled_with_water" />
+        </history>
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_tavern_golem">
+        <interactionitem item="items_e02c02_school_classroomlab_spell" />
+        <interactionitem item="items_e02_c02_city_street_golemhead" />
+        <interactionitem item="items_e02c02_city_corner_golemarms" />
+        <interactionitem item="items_e02_c02_city_street_pisspott" />
+        <property key="has_arms" value="True" />
+        <property key="has_legs" value="True" />
+        <property key="has_head" value="True" />
+        <property key="ready_for_spell" value="True" />
+        <history stateid="State_1">
+          <state stateid="State_3" />
+        </history>
+        <history stateid="State_5">
+          <state stateid="State_6" />
+        </history>
+        <history stateid="State_4">
+          <state stateid="State_7" />
+        </history>
+        <state stateid="complete" />
+        <state stateid="ready_for_spell" />
+      </logic>
+      <logic idref="items_e02c02_city_tavern_laws">
+        <history stateid="State_">
+          <state stateid="examine_2" />
+        </history>
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_tavern_pin">
+        <property key="got" value="True" />
+        <state stateid="inventory" />
+      </logic>
+      <logic idref="items_e02c02_city_tavern_postcard">
+        <state stateid="inventory" />
+      </logic>
+      <logic idref="items_e02c02_city_tavern_sack">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_tavern_stairs">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_city_tavern_table">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_school_classroomlab_crocodiletears">
+        <interactionitem item="items_e02_c02_school_entrance_mop" />
+        <interactionitem item="items_e02c02_city_tavern_glas" />
+        <property key="useable" value="True" />
+        <property key="got" value="True" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_school_classroomlab_exit">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e02c02_school_classroomlab_magicink">
+        <interactionitem item="items_e02c02_city_square_writingpad" />
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e02c02_school_classroomlab_pot">
+        <interactionitem item="items_e02c02_city_tavern_glas" />
+        <interactionitem item="items_e02c02_school_classroomlab_crocodiletears" />
+        <interactionitem item="items_e02c02_school_hall_dragonsweat" />
+        <interactionitem item="items_e02c02_school_classroom_grime" />
+        <property key="has_crocodile_tears" value="True" />
+        <property key="has_grime" value="True" />
+        <state stateid="two_parts" />
+        <state stateid="State_2" />
+        <state stateid="no_dragon_sweat" />
+        <state stateid="State_6" />
+      </logic>
+      <logic idref="items_e02c02_school_classroomlab_scale">
+        <interactionitem item="items_e02c02_school_classroomlab_weight" />
+        <interactionitem item="items_e02c02_city_corner_chocolatered" />
+        <interactionitem item="items_e02c02_city_corner_chocolateblue" />
+        <interactionitem item="items_e02c02_school_hall_dragonsweat" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_school_classroomlab_spell">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e02c02_school_classroomlab_weight">
+        <state stateid="finished" />
+      </logic>
+      <logic idref="items_e02c02_school_classroom_board">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_school_classroom_cage">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_school_classroom_desk">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_school_classroom_exit_entrance">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e02c02_school_classroom_exit_room">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_school_classroom_grime">
+        <property key="got" value="True" />
+        <property key="weighed" value="True" />
+        <state stateid="weighed" />
+      </logic>
+      <logic idref="items_e02c02_school_classroom_lab">
+        <state stateid="examined" />
+      </logic>
+      <logic idref="items_e02c02_school_classroom_pictureclass">
+        <property key="got" value="True" />
+        <state stateid="inventory" />
+      </logic>
+      <logic idref="items_e02c02_school_classroom_plants">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_school_classroom_stove">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c02_school_hall_chimney">
+        <state stateid="unexamined" />
+      </logic>
+      <logic idref="items_e02c02_school_hall_clock">
+        <state stateid="unexamined" />
+      </logic>
+      <logic idref="items_e02c02_school_hall_desk">
+        <state stateid="unexamined" />
+      </logic>
+      <logic idref="items_e02c02_school_hall_dragonsweat">
+        <property key="ink_asked" value="True" />
+        <state stateid="inactive" />
+        <state stateid="asked" />
+        <state stateid="examine1" />
+      </logic>
+      <logic idref="items_e02c02_school_hall_drawer">
+        <state stateid="unexamined" />
+      </logic>
+      <logic idref="items_e02c02_school_hall_exitentrance">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e02c02_school_hall_quill">
+        <interactionitem item="items_e02c02_city_square_writingpad" />
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e02c02_school_hall_rathole">
+        <state stateid="unexamined" />
+      </logic>
+      <logic idref="items_e02c02_school_hall_showcase">
+        <state stateid="unexamined" />
+      </logic>
+      <logic idref="items_e02_c02_city_street_abyss">
+        <interactionitem item="items_e02c02_city_tavern_sack" />
+        <state stateid="unexamined" />
+      </logic>
+      <logic idref="items_e02_c02_city_street_barricade">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02_c02_city_street_bills">
+        <interactionitem item="items_e02_c02_school_entrance_mop" />
+        <state stateid="inventory" />
+      </logic>
+      <logic idref="items_e02_c02_city_street_bucket">
+        <interactionitem item="items_e02c02_city_tavern_glas" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02_c02_city_street_canal">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02_c02_city_street_character_ratboy">
+        <state stateid="inventory" />
+      </logic>
+      <logic idref="items_e02_c02_city_street_clay">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02_c02_city_street_code">
+        <property key="got" value="True" />
+        <state stateid="examine_2" />
+      </logic>
+      <logic idref="items_e02_c02_city_street_exitcitygate">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e02_c02_city_street_exitcitytavern">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e02_c02_city_street_fireplace">
+        <property key="fire_lit" value="True" />
+        <interactionitem item="items_e02_c02_city_street_golemhead" />
+        <interactionitem item="items_e02_c02_city_street_bills" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02_c02_city_street_golemhead">
+        <property key="burned" value="True" />
+        <interactionitem item="items_e02c02_city_corner_golemarms" />
+        <interactionitem item="items_e02_c02_city_street_pisspott" />
+        <history stateid="State_">
+          <state stateid="inventory_burned" />
+        </history>
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02_c02_city_street_pisspott">
+        <property key="fled" value="True" />
+        <interactionitem item="items_e02_c02_city_street_golemhead" />
+        <interactionitem item="items_e02c02_city_corner_golemarms" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02_c02_city_street_stairs">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02_c02_city_street_tavern">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02_c02_city_street_wagon">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02_c02_school_entrance_exitclassroom">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e02_c02_school_entrance_exitlibrary">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02_c02_school_entrance_exitsquare">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e02_c02_school_entrance_mop">
+        <interactionitem item="items_e02c02_city_square_magicwand" />
+        <interactionitem item="items_e02_c02_city_street_bills" />
+        <state stateid="taken" />
+      </logic>
+      <logic idref="items_e02_c02_school_entrance_switch">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02_c02_school_entrance_window">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_outfit_wilbur_paperhat">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_starter">
+        <state stateid="door" />
+      </logic>
+      <logic idref="characters_boy">
+        <property key="spoken" value="True" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="topics_boy_top_e02c02_character_boy_schule">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_boy_top_e02c02_character_boy_zwilling">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_boy_top_e02c02_character_boy_spiel">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_boy_top_e02c02_character_boy_artefakt">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_boy_top_e02c02_character_boy_spaet">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_boy_top_e02c02_character_boy_oberstadt">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_boy_top_e02c02_character_boy_verabschieden">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="characters_door">
+        <property key="spoken" value="True" />
+        <history stateid="State_">
+          <state stateid="examine5" />
+        </history>
+        <history stateid="State_3">
+          <state stateid="know_about_code" />
+        </history>
+        <history stateid="State_1">
+          <state stateid="closed" />
+        </history>
+        <state stateid="examine6" />
+        <state stateid="know_about_code" />
+        <state stateid="closed" />
+      </logic>
+      <logic idref="topics_door_top_e02c02_character_door_sprechen">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_door_top_e02c02_character_door_oeffnen">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_door_top_e02c02_character_door_keincode">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_door_top_e02c02_character_door_codeerstmalig">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_door_top_e02c02_character_door_stimme">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_door_top_e02c02_character_door_sicherheitssystem">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_door_top_e02c02_character_door_verabschieden">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_door_top_e02c02_character_door_stimmepad">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="characters_guard">
+        <interactionitem item="items_e02c02_city_square_magicwand" />
+        <property key="spoken" value="True" />
+        <property key="left" value="False" />
+        <history stateid="State_1">
+          <state stateid="talk2" />
+        </history>
+        <state stateid="examine" />
+        <state stateid="talk2" />
+      </logic>
+      <logic idref="topics_guard_top_e02c02_character_guard_wetterquarz">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_guard_top_e02c02_character_guard_stadtwache">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_guard_top_e02c02_character_guard_aufstand">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_guard_top_e02c02_character_guard_unterstadt">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_guard_top_e02c02_character_guard_statue">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_guard_top_e02c02_character_guard_plakate">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_guard_top_e02c02_character_guard_plakateprotesterstmalig">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_guard_top_e02c02_character_guard_plakateprotest">
+        <property key="Active" value="False" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_guard_top_e02c02_character_guard_kran">
+        <property key="Active" value="False" />
+        <property key="active" value="false" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_guard_top_e02c02_character_guard_schmiergeld">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_guard_top_e02c02_character_guard_idee">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_guard_top_e02c02_character_guard_hilfe_pony">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_guard_top_e02c02_character_guard_hilfe_zugang">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_guard_top_e02c02_character_guard_schmuggelplan">
+        <property key="Active" value="False" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_guard_top_e02c02_character_guard_schmuggelmarkiert">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_guard_top_e02c02_character_guard_deal">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_guard_top_e02c02_character_guard_verabschieden">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="characters_jorge">
+        <interactionitem item="items_e02_c02_city_street_bills" />
+        <property key="kiste_da" value="True" />
+        <property key="eisenwerke_spoken" value="True" />
+        <state stateid="shipent_pending" />
+        <state stateid="used_by_deliverynote" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_geschaefte">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_stadt">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_wahl">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_lotterie">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_kran">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_unterstadt">
+        <property key="Active" value="False" />
+        <property key="active" value="false" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_stadtwache1">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_stadtwache2">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_vertrauen">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_wer_guybrush">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_wer_wilbur">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_wer_schildtraeger">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_angebot_waren">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_angebot_brandwein">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="speak" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_angebot_pony">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_losung_keineahnung_1">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_losung_wuschelhaase">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_losung_jorge">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_losung_keineahnung_2">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_deal">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_schiefertafel">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_droelf">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_pisspott">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_eisenwerke">
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_verabschieden">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="5" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_krokodilstraenen">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="2" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_jorge_top_e02c02_character_jorge_drachenschweiss">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="2" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="characters_king">
+        <property key="spoken" value="True" />
+        <property key="left" value="True" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="topics_king_top_e02c02_character_king_nichtfragen">
+        <property key="Active" value="False" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_king_top_e02c02_character_king_gemein">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_king_top_e02c02_character_king_beobachtung">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_king_top_e02c02_character_king_stress">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_king_top_e02c02_character_king_ratsvorsitzende">
+        <property key="Active" value="False" />
+        <property key="active" value="false" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_king_top_e02c02_character_king_wahl">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_king_top_e02c02_character_king_erzmagier">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_king_top_e02c02_character_king_plan">
+        <property key="Active" value="False" />
+        <property key="active" value="false" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_king_top_e02c02_character_king_golem">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_king_top_e02c02_character_king_steinhart_wilbur">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_king_top_e02c02_character_king_steinhart_troll">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_king_top_e02c02_character_king_steinhart_golem">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_king_top_e02c02_character_king_verabschieden">
+        <property key="Active" value="True" />
+        <property key="active" value="true" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="characters_ogremage">
+        <interactionitem item="items_e02_c02_city_street_bills" />
+        <property key="had_blue_one" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_ogremage_top_e02c02_character_ogremage_zweikoepfe">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogremage_top_e02c02_character_ogremage_gasthaus">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogremage_top_e02c02_character_ogremage_alkohol">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogremage_top_e02c02_character_ogremage_haendler">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogremage_top_e02c02_character_ogremage_branntwein">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogremage_top_e02c02_character_ogremage_jorge">
+        <property key="Active" value="False" />
+        <property key="active" value="false" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogremage_top_e02c02_character_ogremage_wache">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogremage_top_e02c02_character_ogremage_deal">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogremage_top_e02c02_character_ogremage_wahl">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogremage_top_e02c02_character_ogremage_jacke">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogremage_top_e02c02_character_ogremage_golem">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogremage_top_e02c02_character_ogremage_geheimnisse">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogremage_top_e02c02_character_ogremage_baeckerei">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogremage_top_e02c02_character_ogremage_pralinerot">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_ogremage_top_e02c02_character_ogremage_pralineblauerstmalig">
+        <property key="Active" value="False" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogremage_top_e02c02_character_ogremage_pralineblau">
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogremage_top_e02c02_character_ogremage_pralineblaualkohol">
+        <property key="Active" value="False" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogremage_top_e02c02_character_ogremage_kopfschmerzen">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_ogremage_top_e02c02_character_ogremage_verabschiedenerstmalig">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogremage_top_e02c02_character_ogremage_verabschieden">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="3" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="characters_ogrethug">
+        <interactionitem item="items_e02_c02_city_street_bills" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_ogrethug_top_e02c02_character_ogrethug_ratsvorsitzende">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogrethug_top_e02c02_character_ogrethug_arbeit">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogrethug_top_e02c02_character_ogrethug_fluestern">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogrethug_top_e02c02_character_ogrethug_lauschen">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogrethug_top_e02c02_character_ogrethug_verabschieden">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="5" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_ogrethug_top_e02c02_character_ogrethug_golem_zloff">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogrethug_top_e02c02_character_ogrethug_golem_fluestern">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogrethug_top_e02c02_character_ogrethug_golem_warum">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ogrethug_top_e02c02_character_ogrethug_golem_wo">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="characters_pad">
+        <property key="near_door" value="False" />
+        <property key="has_number_60" value="True" />
+        <property key="has_number_count" value="3" />
+        <property key="has_number_4" value="True" />
+        <property key="has_number_9" value="True" />
+        <state stateid="default" />
+        <state stateid="State_" />
+        <state stateid="no_number_41" />
+        <state stateid="State_2" />
+        <state stateid="State_3" />
+        <state stateid="not_near_door" />
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_pad_top_e02c02_character_pad_golems">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_pad_top_e02c02_character_pad_golembauen">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_pad_top_e02c02_character_pad_golembody">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_pad_top_e02c02_character_pad_golemtinte">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_pad_top_e02c02_character_pad_golemzutaten">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_pad_top_e02c02_character_pad_golemtintemixen">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_pad_top_e02c02_character_pad_stimmen">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_pad_top_e02c02_character_pad_stimmenstand">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="2" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_pad_top_e02c02_character_pad_verabschieden">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="5" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_pad_top_e02c02_character_pad_codesagen">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="characters_pisspot">
+        <state stateid="State_" />
+      </logic>
+      <logic idref="characters_prisoner">
+        <property key="spoken" value="True" />
+        <interactionitem item="items_e02c02_city_corner_chisel" />
+        <property key="chisel_spoken" value="True" />
+        <interactionitem item="items_e02c02_city_gate_hammer" />
+        <property key="handsign_shown" value="True" />
+        <history stateid="State_3">
+          <state stateid="chisel_spoken" />
+        </history>
+        <history stateid="State_2">
+          <state stateid="hand_sign_not_spoken" />
+        </history>
+        <history stateid="State_4">
+          <state stateid="used_by_hammer" />
+        </history>
+        <history stateid="State_">
+          <state stateid="used_by_chisel" />
+        </history>
+        <history stateid="State_7">
+          <state stateid="got_arms" />
+        </history>
+        <history stateid="State_9">
+          <state stateid="shown" />
+        </history>
+        <history stateid="State_5">
+          <state stateid="hammer2" />
+        </history>
+        <state stateid="chisel_spoken" />
+        <state stateid="hand_sign_not_spoken" />
+        <state stateid="hammer2" />
+        <state stateid="got_arms" />
+        <state stateid="shown" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_wer">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_warum">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_wielange">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_baldfrei">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_jacke">
+        <property key="Active" value="False" />
+        <property key="active" value="false" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_protestler">
+        <property key="Active" value="False" />
+        <property key="active" value="false" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_handzeichen">
+        <property key="Active" value="False" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_handzeichen_lust">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_handzeichen_du">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_handzeichen_spaeter">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_handzeichen_nochmal">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="3" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_kuchen">
+        <property key="Active" value="False" />
+        <property key="active" value="false" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_meissel">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_meissel_unsicher">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_meissel_befreien">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_hammer">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_hammer_tausch">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_hammer_modell">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_hammer_spaeter">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_konsequenzen_funken">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_konsequenzen_einsturz">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_konsequenzen_scherz">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_hammerundmeissel">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_prisoner_top_e02c02_character_prisoner_verabschieden">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="4" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="characters_protesters">
+        <interactionitem item="items_e02c02_city_tavern_sack" />
+        <property key="usedby_pin2" value="True" />
+        <property key="mg_won" value="True" />
+        <history stateid="State_3">
+          <state stateid="State_5" />
+        </history>
+        <history stateid="State_7">
+          <state stateid="State_6" />
+        </history>
+        <state stateid="default_talk" />
+        <state stateid="played_sign_topic_seq" />
+        <state stateid="handsign_seen" />
+        <state stateid="mg_on" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="topics_protesters_top_e02c02_character_protesters_wer">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_protesters_top_e02c02_character_protesters_warum">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_protesters_top_e02c02_character_protesters_gefangener">
+        <property key="Active" value="False" />
+        <property key="active" value="false" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_protesters_top_e02c02_character_protesters_wahl">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_protesters_top_e02c02_character_protesters_forderungen">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_protesters_top_e02c02_character_protesters_barrikade">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_protesters_top_e02c02_character_protesters_unterstadt">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_protesters_top_e02c02_character_protesters_ton">
+        <property key="Active" value="False" />
+        <property key="active" value="false" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_protesters_top_e02c02_character_protesters_tonhilfe">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_protesters_top_e02c02_character_protesters_tonhilfe_statue">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_protesters_top_e02c02_character_protesters_tonhilfe_barrikade">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_protesters_top_e02c02_character_protesters_tonhilfe_zerstoerung">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_protesters_top_e02c02_character_protesters_tonstatus">
+        <state stateid="done" />
+        <state stateid="Pin_not_shown" />
+      </logic>
+      <logic idref="topics_protesters_top_e02c02_character_protesters_zeichen">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_protesters_top_e02c02_character_protesters_verlassen">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="characters_ratboy">
+        <history stateid="State_">
+          <state stateid="not_taken" />
+        </history>
+        <state stateid="examine" />
+        <state stateid="taken" />
+      </logic>
+      <logic idref="topics_ratboy_top_e02c02_character_timmy_helfen_unsicher">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ratboy_top_e02c02_character_timmy_helfen_nichtnoetig">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_ratboy_top_e02c02_character_timmy_lehrerzimmer">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ratboy_top_e02c02_character_timmy_tunnels">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ratboy_top_e02c02_character_timmy_gesundheit">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ratboy_top_e02c02_character_timmy_koenig">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ratboy_top_e02c02_character_timmy_pralinefensterrot">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_ratboy_top_e02c02_character_timmy_pralinefensterblau">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ratboy_top_e02c02_character_timmy_pralinerot">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_ratboy_top_e02c02_character_timmy_pralineblau">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_ratboy_top_e02c02_character_timmy_verabschieden_erstmalig">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ratboy_top_e02c02_character_timmy_verabschieden">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="characters_reporter">
+        <state stateid="off" />
+      </logic>
+      <logic idref="topics_reporter_top_e02c02_character_reporter_lotterie">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_reporter_top_e02c02_character_reporter_glueck">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_reporter_top_e02c02_character_reporter_zeitung">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_reporter_top_e02c02_character_reporter_schreiben">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_reporter_top_e02c02_character_reporter_glas">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_reporter_top_e02c02_character_reporter_zoll">
+        <property key="Active" value="False" />
+        <property key="active" value="false" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_reporter_top_e02c02_character_reporter_verabschieden">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="characters_schlmaster">
+        <interactionitem item="items_e02c02_city_tavern_sack" />
+        <interactionitem item="items_e02c02_school_classroom_pictureclass" />
+        <property key="calc_sum" value="37" />
+        <property key="calc_num" value="47" />
+        <property key="sign_num" value="1" />
+        <property key="rand_num" value="2" />
+        <state stateid="talk2" />
+        <state stateid="pictureclass" />
+        <state stateid="off" />
+        <state stateid="gold_smeister_spoken" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_aufgaben">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_gold">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_schatzmeister">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_matheneu">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="2" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_doorcode">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_doorstimme">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="2" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_wasser">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_pictureclass">
+        <property key="Active" value="False" />
+        <property key="active" value="false" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_neun">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_neun_ringe">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_neun_ballons">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_neun_zwergenstarkbier">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_neun_ende">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_verabschieden_erstmalig">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_verabschieden">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="5" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_mathe1_65plus">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_mathe1_17minus">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_mathe1_37plus">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="2" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_mathe2_50minus">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="2" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_mathe2_23minus">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_mathe2_27plus">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_mathe3_33ist">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_mathe3_47ist">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="2" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_mathe3_45ist">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_mathechampion">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_schlmaster_top_e02c02_character_schlmaster_neunneu">
+        <property key="Active" value="False" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="characters_wilbur">
+        <state stateid="default" />
+      </logic>
+      <logic idref="scenes_e02c02_city_corner">
+        <property key="want_blue" value="False" />
+        <property key="played_seq" value="True" />
+        <property key="want_red" value="False" />
+        <history stateid="State_">
+          <state stateid="do_not_play" />
+        </history>
+        <state stateid="do_not_play" />
+      </logic>
+      <logic idref="scenes_e02c02_city_gate">
+        <history stateid="State_2">
+          <state stateid="normal" />
+        </history>
+        <state stateid="normal" />
+      </logic>
+      <logic idref="scenes_e02c02_city_square">
+        <history stateid="State_1">
+          <state stateid="entered" />
+        </history>
+        <history stateid="State_2">
+          <state stateid="played_deal" />
+        </history>
+        <history stateid="State_4">
+          <state stateid="played_newstuff" />
+        </history>
+        <history stateid="State_7">
+          <state stateid="State_3" />
+        </history>
+        <history stateid="State_8">
+          <state stateid="State_5" />
+        </history>
+        <state stateid="entered" />
+        <state stateid="played_deal" />
+        <state stateid="played_newstuff" />
+      </logic>
+      <logic idref="scenes_e02c02_city_street">
+        <history stateid="State_2">
+          <state stateid="normal" />
+        </history>
+        <state stateid="normal" />
+      </logic>
+      <logic idref="scenes_e02c02_city_tavern">
+        <history stateid="State_">
+          <state stateid="reporter_there" />
+        </history>
+        <state stateid="reporter_there" />
+      </logic>
+      <logic idref="scenes_e02c02_school_classroom">
+        <history stateid="State_2">
+          <state stateid="normal" />
+        </history>
+        <state stateid="normal" />
+      </logic>
+      <logic idref="scenes_e02c02_school_entrance">
+        <history stateid="State_2">
+          <state stateid="normal" />
+        </history>
+        <state stateid="normal" />
+      </logic>
+      <logic idref="tasks_mg_golemhead">
+        <state stateid="off" />
+      </logic>
+      <logic idref="tasks_mg_signs">
+        <property key="failed" value="False" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="tasks_postcard_map">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="tasks_process">
+        <property key="guard_deal_spoken" value="True" />
+        <property key="jorge_barrel_marked" value="True" />
+        <property key="entered_gate" value="True" />
+        <property key="jorge_barrel_shipped" value="True" />
+        <property key="guard_deal_finished" value="True" />
+        <property key="praline_stolen" value="True" />
+        <property key="praline_switched" value="True" />
+        <state stateid="guard_deal_spoken_off" />
+        <state stateid="jorge_shipment_pending" />
+        <state stateid="entered_gate" />
+        <state stateid="barrel_shipped" />
+        <state stateid="praline_stolen" />
+        <state stateid="praline_switched" />
+      </logic>
+    </logics>
+    <persistences>
+      <persistence idref="SP_from_Entrance" />
+      <persistence idref="MT_Dialog_start" />
+      <persistence idref="Standard_Paper_sheet">
+        <attachment targetId="Wilbur_R_Hand_item" />
+        <enabled value="False" />
+        <visualState value="looking_putback@end" />
+      </persistence>
+      <persistence idref="CSq_Platform">
+        <visualState value="platform_idle" />
+      </persistence>
+      <persistence idref="CSq_Transport_Crate">
+        <enabled value="True" />
+        <visualState value="standard" />
+      </persistence>
+      <persistence idref="common_slate">
+        <attachment targetId="Wilbur_R_Hand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="CSq_pen02">
+        <attachment targetId="Reporter_R_Hand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="characters_pisspot" />
+      <persistence idref="characters_reporter" />
+      <persistence idref="MT_goods_Start" />
+      <persistence idref="CSq_Keygate">
+        <attachment targetId="Wilbur_L_Hand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="characters_pad" />
+      <persistence idref="items_e02c02_city_square_exitcityguard" />
+      <persistence idref="common_Magic_Pen" />
+      <persistence idref="items_e02c02_city_square_exitschoolentrance" />
+      <persistence idref="sp_corner" />
+      <persistence idref="MT_goods" />
+      <persistence idref="MT_barrel" />
+      <persistence idref="SP_from_Entrance_target" />
+      <persistence idref="items_e02c02_city_square_barrel" />
+      <persistence idref="items_e02c02_city_square_schooltower" />
+      <persistence idref="common_Spell_Sheet" />
+      <persistence idref="Focus_Dialog_start" />
+      <persistence idref="items_e02c02_city_square_transportcrate" />
+      <persistence idref="characters_guard" />
+      <persistence idref="items_e02c02_city_square_crane" />
+      <persistence idref="characters_jorge" />
+      <persistence idref="SC_Coin">
+        <attachment targetId="Reporter_L_Hand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="items_e02c02_city_square_magicantower" />
+      <persistence idref="Focus_Cam" />
+      <persistence idref="characters_wilbur">
+        <subObjects wilbur_outfit_hat_magic="False" wilbur_outfit_hat_paper="True" />
+      </persistence>
+      <persistence idref="CSq_Notepad">
+        <attachment targetId="Merchant_r_hand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="focus_pisspott" />
+      <persistence idref="items_e02c02_city_square_lottery" />
+      <persistence idref="characters_politician" />
+      <persistence idref="items_e02c02_city_square_weathercock" />
+      <persistence idref="items_e02c02_city_square_goods" />
+      <persistence idref="common_Golemhead">
+        <attachment targetId="Wilbur_R_Hand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="CSq_Clipboard">
+        <attachment targetId="Merchant_r_hand_item" />
+      </persistence>
+      <persistence idref="FT_cam_deal" />
+      <persistence idref="MT_lookAway" />
+      <persistence idref="common_postcard">
+        <attachment targetId="Wilbur_R_Hand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="CSq_pen">
+        <attachment targetId="Merchant_l_hand_item" />
+        <enabled value="True" />
+      </persistence>
+      <persistence idref="MT_Dialog_entry_sequence" />
+      <persistence idref="items_e02c02_city_corner_statue" />
+      <persistence idref="items_e02c02_city_corner_shield" />
+      <persistence idref="characters_ratboy">
+        <attachment targetId="none" />
+      </persistence>
+      <persistence idref="items_e02c02_city_corner_exitcitysquare" />
+      <persistence idref="items_e02c02_city_corner_billboard" />
+      <persistence idref="characters_prisoner" />
+      <persistence idref="SE_broom">
+        <attachment targetId="Wilbur_R_Hand_item" />
+        <enabled value="False" />
+        <visualState value="standard_poster@end" />
+      </persistence>
+      <persistence idref="CC_Chocolate_blue">
+        <attachment targetId="&lt;none&gt;" />
+        <enabled value="False" />
+        <visualState value="table_hit@end" />
+      </persistence>
+      <persistence idref="CG_Hammer">
+        <attachment targetId="Prisoner_R_Hand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="Sp_from_Gate" />
+      <persistence idref="items_e02c02_city_corner_grating" />
+      <persistence idref="CSt_Placards">
+        <attachment targetId="CC_Placard_locator" />
+        <enabled value="True" />
+        <visualState value="standard_poster@end" />
+      </persistence>
+      <persistence idref="CC_golem_arms">
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="CC_Chisel">
+        <attachment targetId="Prisoner_R_Hand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="mt_guard_poster" />
+      <persistence idref="fp_dialog_guard_toDo" />
+      <persistence idref="items_e02c02_city_corner_bakery" />
+      <persistence idref="mt_gate" />
+      <persistence idref="mt_guard" />
+      <persistence idref="items_e02c02_city_corner_exitcitygate" />
+      <persistence idref="CC_Chocolate_red">
+        <attachment targetId="&lt;none&gt;" />
+        <enabled value="False" />
+        <visualState value="standard_chocolate_red@end" />
+      </persistence>
+      <persistence idref="items_e02c02_city_gate_stall" />
+      <persistence idref="items_e02c02_city_gate_toolbox" />
+      <persistence idref="CT_purse">
+        <attachment targetId="pos_platform" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="items_e02c02_city_gate_stage" />
+      <persistence idref="SM_Toolbox" />
+      <persistence idref="items_e02c02_city_gate_outhouse" />
+      <persistence idref="items_e02c02_city_gate_junk" />
+      <persistence idref="items_e02c02_city_gate_wall" />
+      <persistence idref="items_e02c02_city_gate_exitcitycorner" />
+      <persistence idref="CG_Door">
+        <visualState value="openDoors@end" />
+      </persistence>
+      <persistence idref="characters_boy" />
+      <persistence idref="items_e02c02_city_gate_barrel" />
+      <persistence idref="MT_dialog_boy" />
+      <persistence idref="items_e02c02_city_gate_lamp" />
+      <persistence idref="items_e02c02_city_gate_exitcitystreet" />
+      <persistence idref="mt_kran" />
+      <persistence idref="FT_dialog_Boy" />
+      <persistence idref="mt_wilbur" />
+      <persistence idref="Boy_sword">
+        <attachment targetId="boy_r_hand_item" />
+      </persistence>
+      <persistence idref="CSq_Alcohol">
+        <attachment targetId="pos_platform" />
+        <enabled value="True" />
+      </persistence>
+      <persistence idref="MT_Dialog_Jorge" />
+      <persistence idref="MT_bucket" />
+      <persistence idref="wilbur_magicwand">
+        <attachment targetId="Wilbur_R_Hand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="items_e02_c02_city_street_wagon" />
+      <persistence idref="items_e02_c02_city_street_exitcitygate" />
+      <persistence idref="MT_feuerzauber" />
+      <persistence idref="items_e02_c02_city_street_exitcitytavern" />
+      <persistence idref="Wilbur_DialogShutter_Clay" />
+      <persistence idref="CS_fire_glimmer">
+        <visualState value="ignite@end" />
+      </persistence>
+      <persistence idref="items_e02_c02_city_street_tavern" />
+      <persistence idref="MT_take_pisspot" />
+      <persistence idref="items_e02_c02_city_street_canal" />
+      <persistence idref="items_e02_c02_city_street_fireplace" />
+      <persistence idref="items_e02_c02_city_street_stairs" />
+      <persistence idref="CSt_GolemHead">
+        <enabled value="False" />
+        <attachment targetId="Wilbur_L_Hand_item" />
+      </persistence>
+      <persistence idref="items_e02_c02_city_street_barricade" />
+      <persistence idref="SE_Note">
+        <enabled value="False" />
+        <visualState value="wilburPaper_idle@end" />
+      </persistence>
+      <persistence idref="items_e02_c02_city_street_abyss" />
+      <persistence idref="MT_stairs" />
+      <persistence idref="CST_Shutter">
+        <visualState value="default_close@end" />
+      </persistence>
+      <persistence idref="CSt_Clay_Clod" />
+      <persistence idref="characters_protestermale" />
+      <persistence idref="Wilbur_DialogShutter" />
+      <persistence idref="Wilbur_DialogPisspot" />
+      <persistence idref="characters_protesters" />
+      <persistence idref="items_e02_c02_city_street_pisspott" />
+      <persistence idref="CT_Pin">
+        <enabled value="False" />
+        <attachment targetId="Wilbur_R_Hand_item" />
+      </persistence>
+      <persistence idref="items_e02_c02_city_street_bucket" />
+      <persistence idref="Wilbur_DialogTimmy" />
+      <persistence idref="characters_protesterfemale" />
+      <persistence idref="golem_head">
+        <enabled value="True" />
+      </persistence>
+      <persistence idref="mt_coat" />
+      <persistence idref="characters_ogrethug" />
+      <persistence idref="CT_Duster">
+        <attachment targetId="Ogre_R_Hand_item" />
+        <enabled value="True" />
+        <visualState value="bar_idle@end" />
+      </persistence>
+      <persistence idref="CT_Glass_02">
+        <attachment targetId="RTable_Glass_Pos" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="cam_focus_dialog_ogre" />
+      <persistence idref="CT_golem_torso_box">
+        <visualState value="hidden_ts_appear@end" />
+      </persistence>
+      <persistence idref="mt_glas" />
+      <persistence idref="items_e02c02_city_tavern_stairs" />
+      <persistence idref="items_e02c02_city_tavern_laws" />
+      <persistence idref="characters_ogremage" />
+      <persistence idref="items_e02c02_city_tavern_table" />
+      <persistence idref="characters_schlmaster" />
+      <persistence idref="mt_leave" />
+      <persistence idref="golem_l_arm">
+        <enabled value="True" />
+      </persistence>
+      <persistence idref="golem_legs">
+        <enabled value="True" />
+      </persistence>
+      <persistence idref="golem_eye">
+        <enabled value="True" />
+      </persistence>
+      <persistence idref="MT_grab_pin" />
+      <persistence idref="FT_cam_dialog_director" />
+      <persistence idref="items_e02c02_city_tavern_coat" />
+      <persistence idref="golem_torso" />
+      <persistence idref="mt_golem_leg" />
+      <persistence idref="mt_dialog_ogre" />
+      <persistence idref="CT_Glass">
+        <attachment targetId="&lt;none&gt;" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="Wilbur_GrabPin_Pos" />
+      <persistence idref="items_e02c02_city_tavern_golem" />
+      <persistence idref="items_e02c02_city_tavern_postcard" />
+      <persistence idref="items_e02c02_city_tavern_exitcitystreet" />
+      <persistence idref="SC_Slate" />
+      <persistence idref="Standard_Paper_sheet_02">
+        <enabled value="False" />
+        <visualState value="searching_putback@end" />
+      </persistence>
+      <persistence idref="items_e02c02_city_tavern_glas" />
+      <persistence idref="mt_dialog_schoolmaster" />
+      <persistence idref="Wilbur_ReporterDialog_Pos" />
+      <persistence idref="FT_golem_leg" />
+      <persistence idref="characters_ogrebody" />
+      <persistence idref="items_e02c02_city_tavern_character_ogre" />
+      <persistence idref="mt_dialog_ogre_silver" />
+      <persistence idref="Wilbur_SchoolmasterDialog_Position" />
+      <persistence idref="king_rapier">
+        <attachment targetId="King_Hip_item_bone" />
+      </persistence>
+      <persistence idref="CT_water_glass">
+        <attachment targetId="SMTable_Glass_Pos" />
+      </persistence>
+      <persistence idref="mt_dialog" />
+      <persistence idref="Wilbur_GolemDialog_Pos" />
+      <persistence idref="items_e02c02_city_tavern_computer" />
+      <persistence idref="SR_Photo">
+        <enabled value="False" />
+        <attachment targetId="Wilbur_R_Hand_item" />
+      </persistence>
+      <persistence idref="SH_Magic_Pen">
+        <attachment targetId="Schoolmaster_R_Hand_item" />
+      </persistence>
+      <persistence idref="golem_r_arm">
+        <enabled value="True" />
+      </persistence>
+      <persistence idref="characters_king" />
+      <persistence idref="CT_Water_Glas_02">
+        <attachment targetId="Ogre_L_Hand_item" />
+        <enabled value="True" />
+      </persistence>
+      <persistence idref="CT_List" />
+      <persistence idref="characters_golem" />
+      <persistence idref="items_e02_c02_school_entrance_switch" />
+      <persistence idref="dirt" />
+      <persistence idref="items_e02_c02_school_entrance_mop" />
+      <persistence idref="SE_door_out" />
+      <persistence idref="MT_talk_Door" />
+      <persistence idref="characters_door" />
+      <persistence idref="items_e02_c02_school_entrance_exitclassroom" />
+      <persistence idref="FT_camera" />
+      <persistence idref="MT_broom" />
+      <persistence idref="SE_Wall_Carpet" />
+      <persistence idref="items_e02_c02_school_entrance_window" />
+      <persistence idref="BG_Broom">
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="" />
+      <persistence idref="BG_MagicDoor" />
+      <persistence idref="items_e02_c02_school_entrance_exitsquare" />
+      <persistence idref="MT_use_Door" />
+      <persistence idref="items_e02_c02_school_entrance_exitlibrary" />
+      <persistence idref="items_e02c02_school_classroom_exit_entrance" />
+      <persistence idref="sp_lab" />
+      <persistence idref="items_e02c02_school_classroom_stove" />
+      <persistence idref="mt_stove" />
+      <persistence idref="items_e02c02_school_classroom_board" />
+      <persistence idref="items_e02c02_school_classroom_cage" />
+      <persistence idref="items_e02c02_school_classroom_plants" />
+      <persistence idref="items_e02c02_school_classroom_desk" />
+      <persistence idref="SC_plant" />
+      <persistence idref="SC_chair" />
+      <persistence idref="items_e02c02_school_classroom_pictureclass" />
+      <persistence idref="items_e02c02_school_classroom_lab" />
+      <persistence idref="items_e02c02_school_classroom_exit_room" />
+      <persistence idref="pictureclass_mt" />
+      <persistence idref="SC_Chair_02" />
+      <persistence idref="bottle_empty">
+        <enabled value="True" />
+      </persistence>
+      <persistence idref="items_e02c02_school_classroomlab_crocodiletears" />
+      <persistence idref="bottle_with_salt">
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="SC_Scale">
+        <visualState value="scale_leftDown@end" />
+      </persistence>
+      <persistence idref="SC_Soot">
+        <enabled value="False" />
+        <attachment targetId="scale_r_grime" />
+      </persistence>
+      <persistence idref="items_e02c02_school_classroomlab_scale" />
+      <persistence idref="SC_Weight">
+        <enabled value="True" />
+        <attachment targetId="scale_l_weight" />
+      </persistence>
+      <persistence idref="bottle_with_tears">
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="items_e02c02_school_classroomlab_weight" />
+      <persistence idref="items_e02c02_school_classroomlab_pot" />
+      <persistence idref="SC_Bottle" />
+      <persistence idref="SC_Chocolate_blue" />
+      <persistence idref="SC_Chocolate_red">
+        <enabled value="True" />
+        <attachment targetId="scale_r_chocolateB" />
+      </persistence>
+      <persistence idref="items_e02c02_school_classroomlab_exit" />
+    </persistences>
+    <achievements>
+      <achievement id="e02c02_key" />
+      <achievement id="e02c02_golem" />
+      <achievement id="e02c02_math" disabled="True" />
+    </achievements>
+    <databinding />
+  </gamestate>
+</savegame>
